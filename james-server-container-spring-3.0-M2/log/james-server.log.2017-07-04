@@ -1,0 +1,589 @@
+INFO  22:01:07,305 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:01:07 CST 2017]; root of context hierarchy
+INFO  22:03:31,935 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:03:31 CST 2017]; root of context hierarchy
+INFO  22:03:57,111 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:03:57 CST 2017]; root of context hierarchy
+INFO  22:04:00,556 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:04:00 CST 2017]; root of context hierarchy
+INFO  22:04:29,758 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:04:29 CST 2017]; root of context hierarchy
+INFO  22:09:30,699 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:09:30 CST 2017]; root of context hierarchy
+INFO  22:09:35,349 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:09:35,356 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:09:37,905 | james.domainlist | Set autodetect to: false
+INFO  22:09:37,907 | james.domainlist | Set autodetectIP to: false
+INFO  22:09:37,916 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:09:37,919 | james.mailserver | JAMES init...
+INFO  22:09:38,048 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:09:38,048 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:09:38,049 | james.mailserver | VirtualHosting supported: false
+INFO  22:09:38,049 | james.mailserver | Defaultdomain: abc.com
+INFO  22:09:38,052 | james.mailserver | JAMES ...init end
+INFO  22:09:38,130 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:09:38,135 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:09:38,138 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:09:38,141 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:09:38,145 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:09:38,146 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:09:38,149 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:09:38,152 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:09:38,157 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:09:38,159 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:09:38,167 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:09:38,171 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:09:38,173 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:09:38,175 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:09:38,177 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:09:38,896 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:09:38,897 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:09:38,902 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:09:38,905 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:09:38,906 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:09:38,909 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:09:38,940 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:09:38,942 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:09:38,944 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:09:39,483 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:09:39,768 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:09:39,801 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:09:39,806 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:09:39,806 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:09:39,807 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:09:39,808 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:09:39,809 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:09:39,811 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:09:39,812 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:09:39,812 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:09:39,928 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:09:39,929 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:09:39,930 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:09:39,931 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:09:39,934 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:09:39,935 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:09:39,936 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:09:39,937 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:09:39,937 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:09:39,938 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:09:39,938 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:09:39,940 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:09:39,940 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:09:39,941 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:09:39,942 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:09:39,942 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:09:40,028 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:09:40,031 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:09:40,058 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:09:40,066 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:09:40,068 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:09:40,070 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:09:40,073 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:09:40,075 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:09:40,077 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:09:40,080 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:09:40,082 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:09:40,084 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:09:40,086 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:09:40,089 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:09:40,091 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:09:40,093 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:09:40,094 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:09:40,098 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:09:40,098 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:09:40,099 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:09:40,099 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:09:40,100 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:09:40,183 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:09:40,184 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:09:40,185 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:09:40,186 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:09:40,257 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:09:40,258 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:09:40,259 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:09:40,260 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:09:40,346 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,373 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:09:40,380 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:09:40,389 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:09:40,392 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:09:40,395 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,399 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:09:40,400 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,400 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,402 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,404 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:09:40,407 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:09:40,408 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,432 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:09:40,436 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:09:40,462 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:09:40,466 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:09:40,467 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,468 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,492 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:09:40,494 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:09:40,495 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:09:40,497 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,538 | james.mailstore | JamesMailStore init...
+INFO  22:09:40,554 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:09:40,555 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:09:40,577 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:09:40,578 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:09:40,579 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:09:40,580 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:09:40,614 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:09:40,615 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:09:40,617 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:09:40,620 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:09:40,621 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:09:40,622 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:09:40,623 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:09:40,623 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,624 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,627 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:09:40,627 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:09:40,628 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:09:40,629 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:09:40,629 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:09:40,630 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:09:40,631 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:09:40,631 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,632 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,633 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:09:40,633 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:09:40,635 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:09:40,643 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:09:40,643 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:09:40,644 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:09:40,645 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:09:40,646 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,647 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,649 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:09:40,649 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:09:40,650 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:09:40,651 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:09:40,651 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:09:40,652 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:09:40,652 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:09:40,653 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,657 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,687 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:09:41,298 | james.fetchmail | FetchMail Disabled
+INFO  22:09:41,384 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:09:41,384 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:09:41,387 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:09:41,391 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:09:41,386 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:09:41,395 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,386 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:09:41,396 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:09:41,399 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:09:41,394 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:09:41,406 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:09:41,407 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:09:41,410 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:09:41,412 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:09:41,413 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:09:41,417 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:09:41,419 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,387 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:09:41,421 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,415 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,410 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,402 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:14,713 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Tue Jul 04 22:27:14 CST 2017]; root of context hierarchy
+INFO  22:27:18,114 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:27:18,122 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:27:19,801 | james.domainlist | Set autodetect to: false
+INFO  22:27:19,802 | james.domainlist | Set autodetectIP to: false
+INFO  22:27:19,808 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:27:19,809 | james.mailserver | JAMES init...
+INFO  22:27:19,844 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:27:19,845 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:27:19,845 | james.mailserver | VirtualHosting supported: false
+INFO  22:27:19,845 | james.mailserver | Defaultdomain: abc.com
+INFO  22:27:19,848 | james.mailserver | JAMES ...init end
+INFO  22:27:19,880 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:27:19,884 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:27:19,887 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:27:19,891 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:27:19,894 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:27:19,896 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:27:19,898 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:27:19,901 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:27:19,905 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:27:19,907 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:27:19,910 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:27:19,914 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:27:19,916 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:27:19,919 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:27:19,921 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:27:20,135 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:27:20,135 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:27:20,138 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:27:20,141 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:27:20,144 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:27:20,146 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:27:20,152 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:27:20,154 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:27:20,155 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:27:20,432 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:27:20,619 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:27:20,637 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:27:20,643 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:27:20,643 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:27:20,644 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:27:20,644 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:27:20,645 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:27:20,649 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:27:20,649 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:27:20,650 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:27:20,704 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:27:20,705 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:27:20,706 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:27:20,706 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:27:20,710 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:27:20,711 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:27:20,711 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:27:20,712 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:27:20,712 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:27:20,713 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:27:20,713 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:27:20,713 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:27:20,715 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:27:20,716 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:27:20,716 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:27:20,717 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:27:20,743 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:27:20,746 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:27:20,762 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:27:20,766 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:27:20,768 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:27:20,770 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:27:20,776 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:27:20,778 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:27:20,781 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:27:20,783 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:27:20,787 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:27:20,791 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:27:20,796 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:27:20,800 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:27:20,802 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:27:20,805 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:27:20,809 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:27:20,813 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:27:20,814 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:27:20,814 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:27:20,815 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:27:20,815 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:27:20,877 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:27:20,877 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:27:20,878 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:27:20,879 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:27:20,952 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:27:20,952 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:27:20,953 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:27:20,954 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:27:20,992 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:20,997 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:27:21,007 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:27:21,024 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:27:21,028 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:27:21,032 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,036 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:27:21,038 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,040 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,040 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,042 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:27:21,045 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:27:21,047 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,055 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:27:21,060 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:27:21,080 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:27:21,084 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:27:21,085 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,086 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,099 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:27:21,100 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:27:21,103 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:27:21,104 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,122 | james.mailstore | JamesMailStore init...
+INFO  22:27:21,127 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:27:21,128 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:27:21,128 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:27:21,128 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:27:21,129 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:27:21,129 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:27:21,149 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:27:21,150 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:27:21,152 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:27:21,155 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:27:21,156 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:27:21,157 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:27:21,157 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:27:21,157 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,160 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,163 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:27:21,164 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:27:21,164 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:27:21,165 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:27:21,165 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:27:21,166 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:27:21,166 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:27:21,166 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,167 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,168 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:27:21,169 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:27:21,169 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:27:21,170 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:27:21,171 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:27:21,171 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:27:21,171 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:27:21,171 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,172 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,174 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:27:21,174 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:27:21,174 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:27:21,175 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:27:21,175 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:27:21,175 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:27:21,176 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:27:21,176 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,177 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,192 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:27:21,764 | james.fetchmail | FetchMail Disabled
+INFO  22:27:21,795 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:27:21,796 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:27:21,797 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:27:21,798 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,798 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:27:21,798 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,797 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:27:21,798 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:27:21,800 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,800 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:27:21,804 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,804 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:27:21,818 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,815 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:27:21,812 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:27:21,827 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,812 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:27:21,833 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:27:21,840 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,826 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,816 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,816 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:27:21,877 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:27:21,880 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:27:21,882 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:27:21,884 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:27:21,887 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+ERROR 22:27:23,312 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+ERROR 22:27:23,312 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:27:23,312 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:27:23,313 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:27:23,314 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:27:23,314 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:27:23,338 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 0 retries
+INFO  22:27:23,339 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 0 retries
+INFO  22:29:13,888 | james.imapserver | The bytes could not be written to the session
+INFO  22:30:04,860 | james.smtpserver | Successfully spooled mail Mail1499178604856-1 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  22:30:16,104 | james.imapserver | The bytes could not be written to the session
+INFO  22:30:17,330 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:16,842 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:28,149 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:30,320 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:32,123 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:33,240 | james.imapserver | The bytes could not be written to the session
+INFO  22:32:09,227 | james.imapserver | The bytes could not be written to the session
+INFO  22:32:09,988 | james.imapserver | The bytes could not be written to the session
+ERROR 22:32:23,477 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:32:23,478 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:32:23,481 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:32:23,483 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 1 retries
+ERROR 22:32:23,537 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:32:23,538 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:32:23,540 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:32:23,545 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 1 retries
+INFO  22:33:39,978 | james.imapserver | The bytes could not be written to the session
+INFO  22:33:49,779 | james.imapserver | The bytes could not be written to the session
+INFO  22:34:13,038 | james.imapserver | The bytes could not be written to the session
+INFO  22:34:20,128 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:07,055 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:10,336 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:17,502 | james.smtpserver | Successfully spooled mail Mail1499178917500-3 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  22:35:20,994 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:24,668 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:28,598 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:36,936 | james.smtpserver | Successfully spooled mail Mail1499178936934-5 from user1@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  22:35:40,829 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:46,073 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:59,658 | james.imapserver | The bytes could not be written to the session
+INFO  22:36:05,346 | james.imapserver | The bytes could not be written to the session
+ERROR 22:37:23,573 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:37:23,573 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:37:23,574 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:37:23,574 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 2 retries
+ERROR 22:37:23,611 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:37:23,611 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:37:23,612 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:37:23,613 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 2 retries
+ERROR 22:42:23,666 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:42:23,666 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:42:23,669 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:42:23,671 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 3 retries
+ERROR 22:42:23,728 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:42:23,728 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:42:23,730 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:42:23,731 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 3 retries
+ERROR 22:47:23,746 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:47:23,746 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:47:23,752 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:47:23,753 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 4 retries
+ERROR 22:47:23,787 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:47:23,788 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:47:23,789 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:47:23,790 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 4 retries
+ERROR 22:52:23,833 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:52:23,834 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:52:23,838 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:52:23,839 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 5 retries
+ERROR 22:52:23,880 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:52:23,881 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:52:23,883 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:52:23,886 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 5 retries
+ERROR 22:57:23,923 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:57:23,923 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:57:23,925 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:57:23,925 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 6 retries
+ERROR 22:57:23,971 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  22:57:23,972 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:57:23,973 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:57:23,974 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 6 retries
+ERROR 23:02:24,024 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:02:24,025 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:02:24,031 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:02:24,032 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 7 retries
+ERROR 23:02:24,077 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:02:24,078 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:02:24,079 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:02:24,080 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 7 retries
+ERROR 23:07:24,124 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:07:24,124 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:07:24,125 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:07:24,125 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 8 retries
+ERROR 23:07:24,156 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:07:24,156 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:07:24,157 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:07:24,157 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 8 retries
+ERROR 23:12:24,160 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:12:24,161 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:12:24,161 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:12:24,162 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 9 retries
+ERROR 23:12:24,195 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:12:24,195 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:12:24,196 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:12:24,196 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 9 retries
+ERROR 23:17:24,199 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:17:24,199 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:17:24,200 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:17:24,200 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 10 retries
+ERROR 23:17:24,263 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:17:24,263 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:17:24,264 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:17:24,264 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 10 retries
+ERROR 23:22:24,294 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:22:24,295 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:22:24,297 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:22:24,297 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 11 retries
+ERROR 23:22:24,343 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:22:24,343 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:22:24,345 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:22:24,347 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 11 retries
+ERROR 23:27:24,374 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:27:24,375 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:27:24,377 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:27:24,377 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 12 retries
+ERROR 23:27:24,422 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:27:24,422 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:27:24,423 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:27:24,423 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 12 retries
+ERROR 23:32:24,458 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:32:24,458 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:32:24,459 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:32:24,461 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 13 retries
+ERROR 23:32:24,495 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:32:24,495 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:32:24,496 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:32:24,496 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 13 retries
+ERROR 23:37:24,534 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:37:24,534 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:37:24,536 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:37:24,537 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 14 retries
+ERROR 23:37:24,576 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:37:24,577 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:37:24,578 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:37:24,579 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 14 retries
+ERROR 23:42:24,601 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:42:24,601 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:42:24,601 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:42:24,602 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 15 retries
+ERROR 23:42:24,636 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:42:24,637 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:42:24,637 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:42:24,637 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 15 retries
+ERROR 23:47:24,670 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:47:24,670 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:47:24,672 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:47:24,673 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 16 retries
+ERROR 23:47:24,714 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:47:24,715 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:47:24,715 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:47:24,716 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 16 retries
+ERROR 23:52:24,742 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:52:24,742 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:52:24,743 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:52:24,743 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 17 retries
+ERROR 23:52:24,780 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:52:24,780 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:52:24,780 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:52:24,781 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 17 retries
+ERROR 23:57:24,798 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:57:24,798 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:57:24,798 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:57:24,799 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 18 retries
+ERROR 23:57:24,857 | james.dnsservice | Couldn't resolve IP address for host qq.com.
+INFO  23:57:24,857 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:57:24,858 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:57:24,858 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 18 retries

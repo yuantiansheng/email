@@ -1,0 +1,55 @@
+INFO  10:26:18,343 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  10:26:18,344 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  10:26:18,344 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  10:26:18,345 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  10:31:18,809 | james.imapserver | The bytes could not be written to the session
+INFO  10:31:22,437 | james.imapserver | The bytes could not be written to the session
+INFO  10:31:26,348 | james.imapserver | The bytes could not be written to the session
+INFO  10:31:29,284 | james.imapserver | The bytes could not be written to the session
+INFO  10:31:30,405 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:02,420 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:04,214 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:13,185 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:26,766 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:26,769 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:26,806 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:30,279 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:34,155 | james.imapserver | The bytes could not be written to the session
+INFO  10:32:34,173 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:14,232 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:16,250 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:31,183 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:33,255 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:35,739 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:37,966 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:41,019 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:41,834 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:43,204 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:43,789 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:44,863 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:46,616 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:47,828 | james.imapserver | The bytes could not be written to the session
+INFO  10:33:53,704 | james.imapserver | The bytes could not be written to the session
+INFO  10:34:35,202 | james.imapserver | The bytes could not be written to the session
+INFO  10:34:36,054 | james.imapserver | The bytes could not be written to the session
+INFO  10:34:37,113 | james.imapserver | The bytes could not be written to the session
+INFO  10:34:48,787 | james.imapserver | The bytes could not be written to the session
+INFO  10:36:58,976 | james.imapserver | The bytes could not be written to the session
+INFO  10:37:01,848 | james.imapserver | The bytes could not be written to the session
+INFO  10:37:59,874 | james.imapserver | The bytes could not be written to the session
+INFO  15:33:52,063 | james.imapserver | The bytes could not be written to the session
+INFO  15:34:26,289 | james.imapserver | The bytes could not be written to the session
+INFO  15:34:35,014 | james.imapserver | Dispose IMAP Service
+INFO  15:39:35,008 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  15:39:35,008 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  15:39:35,012 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  15:39:35,013 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  15:39:42,524 | james.imapserver | Dispose IMAP Service
+INFO  15:47:04,003 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  15:47:04,003 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  15:47:04,007 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  15:47:04,008 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  15:48:42,901 | james.imapserver | The bytes could not be written to the session
+INFO  16:26:22,809 | james.imapserver | The bytes could not be written to the session
+INFO  16:26:54,208 | james.imapserver | The bytes could not be written to the session
+INFO  22:48:36,924 | james.imapserver | The bytes could not be written to the session

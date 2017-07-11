@@ -1,0 +1,1338 @@
+INFO  21:29:35,107 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 21:29:35 CST 2017]; root of context hierarchy
+INFO  21:29:41,800 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  21:29:41,806 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  21:29:43,513 | james.domainlist | Set autodetect to: false
+INFO  21:29:43,514 | james.domainlist | Set autodetectIP to: false
+INFO  21:29:43,519 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  21:29:43,531 | james.mailserver | JAMES init...
+INFO  21:29:43,569 | james.domainlist | Local host is: 10.108.115.130
+INFO  21:29:43,569 | james.mailserver | Private Repository LocalInbox opened
+INFO  21:29:43,569 | james.mailserver | VirtualHosting supported: false
+INFO  21:29:43,570 | james.mailserver | Defaultdomain: abc.com
+INFO  21:29:43,573 | james.mailserver | JAMES ...init end
+INFO  21:29:43,601 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  21:29:43,606 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  21:29:43,609 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  21:29:43,612 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  21:29:43,615 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  21:29:43,617 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  21:29:43,620 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  21:29:43,622 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  21:29:43,626 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  21:29:43,628 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  21:29:43,631 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  21:29:43,635 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  21:29:43,637 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  21:29:43,639 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  21:29:43,641 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  21:29:43,881 | james.usersrepository | Bean  LocalUsers started.
+INFO  21:29:43,883 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  21:29:43,886 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  21:29:43,889 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  21:29:43,891 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  21:29:43,894 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  21:29:43,900 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  21:29:43,902 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  21:29:43,904 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  21:29:44,200 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  21:29:44,417 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  21:29:44,434 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  21:29:44,439 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  21:29:44,440 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  21:29:44,440 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  21:29:44,441 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  21:29:44,442 | james.smtpserver | This SMTP server requires authentication.
+INFO  21:29:44,444 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  21:29:44,445 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  21:29:44,446 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  21:29:44,497 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  21:29:44,501 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  21:29:44,501 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  21:29:44,502 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  21:29:44,506 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  21:29:44,507 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  21:29:44,507 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  21:29:44,508 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  21:29:44,509 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  21:29:44,510 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  21:29:44,511 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  21:29:44,512 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  21:29:44,512 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  21:29:44,513 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  21:29:44,513 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  21:29:44,513 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  21:29:44,539 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  21:29:44,542 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  21:29:44,556 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  21:29:44,561 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  21:29:44,562 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  21:29:44,564 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  21:29:44,567 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  21:29:44,569 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  21:29:44,571 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  21:29:44,573 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  21:29:44,576 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  21:29:44,579 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  21:29:44,582 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  21:29:44,586 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  21:29:44,588 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  21:29:44,591 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  21:29:44,593 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  21:29:44,599 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  21:29:44,599 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  21:29:44,599 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  21:29:44,600 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  21:29:44,601 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  21:29:44,670 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  21:29:44,671 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  21:29:44,673 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  21:29:44,674 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  21:29:44,751 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  21:29:44,753 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  21:29:44,754 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  21:29:44,755 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  21:29:44,792 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:44,798 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  21:29:44,807 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  21:29:44,811 | james.mailetcontainer | Mailet Null instantiated.
+INFO  21:29:44,815 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  21:29:44,820 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  21:29:44,824 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  21:29:44,825 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  21:29:44,826 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:44,827 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  21:29:44,829 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  21:29:44,833 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  21:29:44,834 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:44,842 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  21:29:44,846 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  21:29:44,880 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  21:29:44,885 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  21:29:44,885 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  21:29:44,886 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:44,902 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  21:29:44,904 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  21:29:44,906 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  21:29:44,914 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:44,959 | james.mailstore | JamesMailStore init...
+INFO  21:29:44,967 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  21:29:44,968 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  21:29:44,971 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  21:29:44,973 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  21:29:44,974 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  21:29:44,975 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  21:29:44,997 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  21:29:45,002 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  21:29:45,004 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  21:29:45,010 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  21:29:45,012 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  21:29:45,013 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  21:29:45,014 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  21:29:45,015 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  21:29:45,018 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:45,020 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  21:29:45,021 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  21:29:45,022 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  21:29:45,023 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  21:29:45,023 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  21:29:45,023 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  21:29:45,024 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  21:29:45,024 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  21:29:45,025 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:45,029 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  21:29:45,030 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  21:29:45,031 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  21:29:45,034 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  21:29:45,035 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  21:29:45,036 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  21:29:45,038 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  21:29:45,038 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  21:29:45,039 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:45,041 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  21:29:45,042 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  21:29:45,043 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  21:29:45,044 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  21:29:45,047 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  21:29:45,049 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  21:29:45,051 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  21:29:45,051 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  21:29:45,052 | james.mailetcontainer | Matcher All instantiated.
+INFO  21:29:45,067 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  21:29:45,595 | james.fetchmail | FetchMail Disabled
+INFO  21:29:45,628 | james.mailetcontainer | JamesSpoolManager init...
+INFO  21:29:45,628 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  21:29:45,629 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  21:29:45,631 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,630 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  21:29:45,630 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  21:29:45,638 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,630 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  21:29:45,641 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  21:29:45,643 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  21:29:45,644 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  21:29:45,636 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  21:29:45,647 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,636 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  21:29:45,636 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  21:29:45,654 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  21:29:45,655 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,653 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,652 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,647 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,641 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:45,640 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  21:29:59,667 | james.imapserver | The bytes could not be written to the session
+INFO  21:31:41,240 | james.smtpserver | Successfully spooled mail Mail1499520701216-1 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  21:33:09,946 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 21:33:09 CST 2017]; root of context hierarchy
+INFO  21:33:33,454 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 21:33:33 CST 2017]; root of context hierarchy
+INFO  22:02:41,450 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:02:41 CST 2017]; root of context hierarchy
+INFO  22:03:05,144 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:03:05 CST 2017]; root of context hierarchy
+INFO  22:03:10,506 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:03:10 CST 2017]; root of context hierarchy
+INFO  22:03:21,045 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:03:21 CST 2017]; root of context hierarchy
+INFO  22:03:48,132 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:03:48 CST 2017]; root of context hierarchy
+INFO  22:03:51,783 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:03:51 CST 2017]; root of context hierarchy
+INFO  22:04:08,172 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:04:08 CST 2017]; root of context hierarchy
+INFO  22:13:02,098 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:13:02 CST 2017]; root of context hierarchy
+INFO  22:15:29,679 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:15:29 CST 2017]; root of context hierarchy
+INFO  22:15:32,071 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:15:32,080 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:15:33,758 | james.domainlist | Set autodetect to: false
+INFO  22:15:33,759 | james.domainlist | Set autodetectIP to: false
+INFO  22:15:33,762 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:15:33,764 | james.mailserver | JAMES init...
+INFO  22:15:33,800 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:15:33,800 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:15:33,801 | james.mailserver | VirtualHosting supported: false
+INFO  22:15:33,801 | james.mailserver | Defaultdomain: abc.com
+INFO  22:15:33,804 | james.mailserver | JAMES ...init end
+INFO  22:15:33,832 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:15:33,835 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:15:33,838 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:15:33,841 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:15:33,844 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:15:33,846 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:15:33,849 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:15:33,851 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:15:33,855 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:15:33,857 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:15:33,860 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:15:33,864 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:15:33,866 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:15:33,868 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:15:33,871 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:15:34,076 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:15:34,077 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:15:34,080 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:15:34,083 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:15:34,085 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:15:34,088 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:15:34,093 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:15:34,095 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:15:34,097 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:15:34,372 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:15:34,564 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:15:34,579 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:15:34,583 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:15:34,584 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:15:34,585 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:15:34,585 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:15:34,587 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:15:34,590 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:15:34,591 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:15:34,592 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:15:34,642 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:15:34,643 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:15:34,644 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:15:34,645 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:15:34,649 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:15:34,650 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:15:34,651 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:15:34,652 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:15:34,653 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:15:34,654 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:15:34,655 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:15:34,656 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:15:34,656 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:15:34,657 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:15:34,657 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:15:34,658 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:15:34,680 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:15:34,684 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:15:34,699 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:15:34,703 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:15:34,706 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:15:34,709 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:15:34,713 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:15:34,716 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:15:34,718 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:15:34,722 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:15:34,726 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:15:34,730 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:15:34,734 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:15:34,739 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:15:34,742 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:15:34,744 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:15:34,746 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:15:34,751 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:15:34,751 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:15:34,752 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:15:34,753 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:15:34,755 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:15:34,813 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:15:34,814 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:15:34,814 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:15:34,815 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:15:34,890 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:15:34,891 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:15:34,892 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:15:34,893 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:15:34,936 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:34,942 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:15:34,950 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:15:34,953 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:15:34,958 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:15:34,962 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:15:34,967 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:15:34,968 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:15:34,969 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:34,969 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:15:34,972 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:15:34,975 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:15:34,976 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:34,983 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:15:34,989 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:15:35,008 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:15:35,012 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:15:35,013 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:15:35,014 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,028 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:15:35,028 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:15:35,031 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:15:35,033 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,045 | james.mailstore | JamesMailStore init...
+INFO  22:15:35,053 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:15:35,056 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:15:35,058 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:15:35,059 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:15:35,060 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:15:35,060 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:15:35,078 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:15:35,081 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:15:35,084 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:15:35,088 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:15:35,089 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:15:35,090 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:15:35,091 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:15:35,091 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:15:35,095 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,098 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:15:35,099 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:15:35,099 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:15:35,100 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:15:35,101 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:15:35,101 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:15:35,102 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:15:35,102 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:15:35,104 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,105 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:15:35,106 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:15:35,107 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:15:35,108 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:15:35,108 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:15:35,109 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:15:35,109 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:15:35,110 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:15:35,111 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,112 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:15:35,113 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:15:35,113 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:15:35,114 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:15:35,116 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:15:35,116 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:15:35,117 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:15:35,118 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:15:35,119 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:15:35,138 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:15:35,674 | james.fetchmail | FetchMail Disabled
+INFO  22:15:35,707 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:15:35,708 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:15:35,709 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:15:35,710 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:15:35,710 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,710 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:15:35,712 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,709 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:15:35,724 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,709 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:15:35,721 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:15:35,715 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:15:35,729 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,715 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:15:35,715 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:15:35,731 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:15:35,732 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:15:35,734 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:15:35,739 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:15:35,714 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:15:35,741 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,712 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:15:35,743 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,712 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:15:35,743 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,711 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,741 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,738 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,735 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,734 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,730 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,729 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:15:35,725 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:20:10,863 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:20:10 CST 2017]; root of context hierarchy
+INFO  22:21:18,662 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:21:18 CST 2017]; root of context hierarchy
+INFO  22:21:24,123 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:21:24,130 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:21:30,153 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:21:30 CST 2017]; root of context hierarchy
+INFO  22:22:30,331 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:22:30 CST 2017]; root of context hierarchy
+INFO  22:22:33,084 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:22:33,092 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:22:34,751 | james.domainlist | Set autodetect to: false
+INFO  22:22:34,752 | james.domainlist | Set autodetectIP to: false
+INFO  22:22:34,757 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:22:34,759 | james.mailserver | JAMES init...
+INFO  22:22:34,796 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:22:34,796 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:22:34,798 | james.mailserver | VirtualHosting supported: false
+INFO  22:22:34,798 | james.mailserver | Defaultdomain: abc.com
+INFO  22:22:34,802 | james.mailserver | JAMES ...init end
+INFO  22:22:34,830 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:22:34,834 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:22:34,837 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:22:34,841 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:22:34,844 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:22:34,846 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:22:34,849 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:22:34,851 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:22:34,856 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:22:34,858 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:22:34,861 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:22:34,864 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:22:34,866 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:22:34,868 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:22:34,870 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:22:35,075 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:22:35,076 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:22:35,079 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:22:35,082 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:22:35,084 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:22:35,086 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:22:35,091 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:22:35,093 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:22:35,095 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:22:35,370 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:22:35,557 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:22:35,572 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:22:35,577 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:22:35,577 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:22:35,578 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:22:35,578 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:22:35,579 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:22:35,582 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:22:35,582 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:22:35,583 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:22:35,634 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:22:35,635 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:22:35,636 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:22:35,637 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:22:35,640 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:22:35,641 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:22:35,641 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:22:35,642 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:22:35,642 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:22:35,643 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:22:35,644 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:22:35,646 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:22:35,646 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:22:35,647 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:22:35,647 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:22:35,648 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:22:35,673 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:22:35,676 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:22:35,692 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:22:35,696 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:22:35,698 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:22:35,700 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:22:35,705 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:22:35,708 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:22:35,710 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:22:35,713 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:22:35,715 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:22:35,718 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:22:35,723 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:22:35,727 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:22:35,729 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:22:35,732 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:22:35,735 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:22:35,739 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:22:35,739 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:22:35,740 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:22:35,742 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:22:35,743 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:22:35,800 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:22:35,800 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:22:35,801 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:22:35,802 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:22:35,872 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:22:35,873 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:22:35,875 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:22:35,875 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:22:35,928 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:35,933 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:22:35,942 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:22:35,946 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:22:35,949 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:22:35,954 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:22:35,959 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:22:35,960 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:22:35,961 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:35,961 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:22:35,964 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:22:35,967 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:22:35,969 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:35,975 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:22:35,980 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:22:36,000 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:22:36,003 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:22:36,005 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:22:36,005 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,020 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:22:36,022 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:22:36,023 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:22:36,025 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,043 | james.mailstore | JamesMailStore init...
+INFO  22:22:36,048 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:22:36,048 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:22:36,050 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:22:36,050 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:22:36,051 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:22:36,052 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:22:36,072 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:22:36,074 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:22:36,076 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:22:36,080 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:22:36,080 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:22:36,081 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:22:36,082 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:22:36,084 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:22:36,086 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,089 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:22:36,089 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:22:36,090 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:22:36,090 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:22:36,092 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:22:36,093 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:22:36,093 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:22:36,093 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:22:36,095 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,096 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:22:36,097 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:22:36,098 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:22:36,099 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:22:36,100 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:22:36,102 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:22:36,103 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:22:36,103 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:22:36,105 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,106 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:22:36,107 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:22:36,108 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:22:36,108 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:22:36,108 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:22:36,109 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:22:36,110 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:22:36,112 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:22:36,113 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:22:36,133 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:22:36,684 | james.fetchmail | FetchMail Disabled
+INFO  22:22:36,713 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:22:36,714 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:22:36,715 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:22:36,716 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:22:36,715 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:22:36,718 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:22:36,718 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,716 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,716 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,725 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:22:36,726 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,725 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:22:36,733 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,725 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:22:36,734 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,725 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:22:36,736 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:22:36,739 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:22:36,724 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:22:36,719 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:22:36,719 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:22:36,719 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:22:36,719 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:22:36,718 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,763 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,763 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,762 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,761 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,760 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,752 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,753 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,748 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,748 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,745 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:22:36,769 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:23:29,905 | org.apache.james.container.spring.JamesServerApplicationContext | Closing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:22:30 CST 2017]; root of context hierarchy
+INFO  22:24:38,054 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:24:38 CST 2017]; root of context hierarchy
+INFO  22:35:00,452 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:35:00 CST 2017]; root of context hierarchy
+WARN  22:35:00,589 | org.springframework.beans.factory.xml.XmlBeanDefinitionReader | Ignored XML validation warning
+org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 103; schema_reference.4: 无法读取方案文档 'classpath:/org/schema/beans/spring-beans-3.0.xsd', 原因为 1) 无法找到文档; 2) 无法读取文档; 3) 文档的根元素不是 <xsd:schema>。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:126)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:92)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:467)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:397)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at org.apache.james.container.spring.JamesServerApplicationContext.<init>(JamesServerApplicationContext.java:37)
+	at org.apache.james.container.spring.Main.main(Main.java:29)
+INFO  22:51:57,451 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:51:57 CST 2017]; root of context hierarchy
+INFO  22:56:51,547 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:56:51 CST 2017]; root of context hierarchy
+INFO  22:56:52,359 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:56:52,367 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:56:54,061 | james.domainlist | Set autodetect to: false
+INFO  22:56:54,061 | james.domainlist | Set autodetectIP to: false
+INFO  22:56:54,065 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:56:54,067 | james.mailserver | JAMES init...
+INFO  22:56:54,102 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:56:54,103 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:56:54,103 | james.mailserver | VirtualHosting supported: false
+INFO  22:56:54,103 | james.mailserver | Defaultdomain: abc.com
+INFO  22:56:54,106 | james.mailserver | JAMES ...init end
+INFO  22:56:54,135 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:56:54,139 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:56:54,142 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:56:54,145 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:56:54,148 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:56:54,150 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:56:54,152 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:56:54,154 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:56:54,159 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:56:54,160 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:56:54,163 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:56:54,167 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:56:54,168 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:56:54,171 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:56:54,175 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:56:54,382 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:56:54,383 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:56:54,385 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:56:54,390 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:56:54,393 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:56:54,395 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:56:54,403 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:56:54,405 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:56:54,407 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:56:54,685 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:56:54,883 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:56:54,898 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:56:54,905 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:56:54,905 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:56:54,906 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:56:54,908 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:56:54,909 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:56:54,912 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:56:54,912 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:56:54,913 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:56:54,966 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:56:54,968 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:56:54,972 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:56:54,973 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:56:54,977 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:56:54,978 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:56:54,978 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:56:54,982 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:56:54,982 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:56:54,984 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:56:54,984 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:56:54,985 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:56:54,985 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:56:54,986 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:56:54,987 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:56:54,987 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:56:55,013 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:56:55,017 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:56:55,033 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:56:55,037 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:56:55,040 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:56:55,042 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:56:55,047 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:56:55,052 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:56:55,054 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:56:55,062 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:56:55,065 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:56:55,069 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:56:55,072 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:56:55,077 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:56:55,079 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:56:55,083 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:56:55,085 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:56:55,093 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:56:55,093 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:56:55,094 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:56:55,095 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:56:55,096 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:56:55,149 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:56:55,149 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:56:55,151 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:56:55,152 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:56:55,222 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:56:55,223 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:56:55,225 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:56:55,226 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:56:55,272 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,277 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:56:55,288 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:56:55,291 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:56:55,296 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:56:55,300 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:56:55,304 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:56:55,305 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:56:55,308 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,309 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:56:55,312 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:56:55,315 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:56:55,317 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,326 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:56:55,331 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:56:55,354 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:56:55,360 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:56:55,361 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:56:55,362 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,379 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:56:55,380 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:56:55,394 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:56:55,399 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,431 | james.mailstore | JamesMailStore init...
+INFO  22:56:55,439 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:56:55,440 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:56:55,441 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:56:55,441 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:56:55,443 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:56:55,444 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:56:55,465 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:56:55,468 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:56:55,470 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:56:55,474 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:56:55,476 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:56:55,478 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:56:55,479 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:56:55,479 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:56:55,481 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,483 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:56:55,484 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:56:55,484 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:56:55,485 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:56:55,486 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:56:55,486 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:56:55,487 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:56:55,489 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:56:55,490 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,493 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:56:55,494 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:56:55,495 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:56:55,496 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:56:55,496 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:56:55,497 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:56:55,498 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:56:55,502 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:56:55,505 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,506 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:56:55,507 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:56:55,509 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:56:55,512 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:56:55,512 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:56:55,513 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:56:55,514 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:56:55,514 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:56:55,516 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:56:55,532 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:56:56,090 | james.fetchmail | FetchMail Disabled
+INFO  22:56:56,123 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:56:56,124 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:56:56,126 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:56:56,126 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:56:56,127 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,129 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:56:56,130 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:56:56,129 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:56:56,138 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,129 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:56:56,139 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,129 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:56:56,129 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,141 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:56:56,143 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:56:56,137 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:56:56,149 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,133 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:56:56,150 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:56:56,152 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:56:56,132 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:56:56,155 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,155 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,154 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,154 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,153 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,151 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,149 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,145 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:56:56,156 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:57:08,471 | james.imapserver | The bytes could not be written to the session
+INFO  22:57:10,695 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:03,606 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 22:58:03 CST 2017]; root of context hierarchy
+INFO  22:58:04,440 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:58:04,450 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  22:58:06,128 | james.domainlist | Set autodetect to: false
+INFO  22:58:06,128 | james.domainlist | Set autodetectIP to: false
+INFO  22:58:06,134 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:58:06,135 | james.mailserver | JAMES init...
+INFO  22:58:06,171 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:58:06,172 | james.mailserver | Private Repository LocalInbox opened
+INFO  22:58:06,173 | james.mailserver | VirtualHosting supported: false
+INFO  22:58:06,174 | james.mailserver | Defaultdomain: abc.com
+INFO  22:58:06,177 | james.mailserver | JAMES ...init end
+INFO  22:58:06,206 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:58:06,211 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:58:06,214 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:58:06,218 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:58:06,221 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:58:06,223 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:58:06,226 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:58:06,228 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:58:06,232 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:58:06,234 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:58:06,237 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:58:06,241 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:58:06,243 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:58:06,246 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:58:06,248 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:58:06,452 | james.usersrepository | Bean  LocalUsers started.
+INFO  22:58:06,453 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:58:06,455 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:58:06,459 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:58:06,461 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:58:06,463 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:58:06,469 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:58:06,471 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:58:06,472 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  22:58:06,742 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  22:58:06,941 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:58:06,955 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:58:06,961 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:58:06,962 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:58:06,963 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:58:06,964 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:58:06,964 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:58:06,967 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:58:06,968 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:58:06,968 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:58:07,018 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  22:58:07,020 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:58:07,021 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:58:07,022 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:58:07,026 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  22:58:07,027 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:58:07,028 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:58:07,029 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:58:07,030 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:58:07,031 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:58:07,031 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:58:07,032 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:58:07,032 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:58:07,033 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:58:07,033 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:58:07,034 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:58:07,057 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  22:58:07,060 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:58:07,073 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  22:58:07,078 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  22:58:07,081 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  22:58:07,084 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  22:58:07,087 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  22:58:07,089 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  22:58:07,093 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  22:58:07,095 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  22:58:07,099 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  22:58:07,102 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  22:58:07,105 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  22:58:07,110 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  22:58:07,112 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  22:58:07,115 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  22:58:07,118 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  22:58:07,121 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  22:58:07,121 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  22:58:07,122 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  22:58:07,122 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  22:58:07,123 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  22:58:07,180 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:58:07,180 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:58:07,182 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:58:07,183 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:58:07,271 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  22:58:07,271 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  22:58:07,273 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  22:58:07,276 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  22:58:07,360 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,377 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:58:07,402 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:58:07,415 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:58:07,430 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:58:07,438 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:58:07,453 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:58:07,461 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:58:07,465 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,472 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:58:07,493 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:58:07,503 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:58:07,510 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,530 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:58:07,537 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:58:07,569 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:58:07,576 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:58:07,578 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:58:07,585 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,617 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:58:07,621 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:58:07,631 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:58:07,642 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,669 | james.mailstore | JamesMailStore init...
+INFO  22:58:07,673 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  22:58:07,676 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  22:58:07,676 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  22:58:07,677 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  22:58:07,678 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  22:58:07,680 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  22:58:07,705 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:58:07,706 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  22:58:07,708 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:58:07,713 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:58:07,713 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  22:58:07,714 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:58:07,714 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:58:07,715 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:58:07,716 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,719 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:58:07,720 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  22:58:07,721 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:58:07,722 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:58:07,723 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  22:58:07,723 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:58:07,725 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:58:07,725 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:58:07,726 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,728 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:58:07,729 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  22:58:07,729 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:58:07,730 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:58:07,731 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  22:58:07,731 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:58:07,732 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:58:07,732 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:58:07,734 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,735 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  22:58:07,735 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  22:58:07,736 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  22:58:07,738 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  22:58:07,738 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  22:58:07,739 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  22:58:07,739 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  22:58:07,740 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:58:07,741 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:58:07,762 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:58:08,283 | james.fetchmail | FetchMail Disabled
+INFO  22:58:08,314 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:58:08,314 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:58:08,316 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:58:08,316 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,316 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:58:08,318 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,318 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:58:08,318 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:58:08,318 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:58:08,327 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,318 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:58:08,329 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,317 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:58:08,331 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,322 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,325 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:58:08,335 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:58:08,336 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:58:08,337 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:58:08,338 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:58:08,340 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:58:08,341 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:58:08,344 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:58:08,345 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:58:08,347 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:58:08,349 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:58:08,320 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:58:08,321 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,353 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:08,353 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:58:24,811 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:26,737 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:28,337 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:37,835 | james.smtpserver | Successfully spooled mail Mail1499525917814-1 from admin@abc.com on 127.0.0.1 for [user2@abc.com]
+INFO  22:58:37,909 | james.mailetcontext | Storing mail Mail1499525917814-1 in file://var/mail/address-error/
+INFO  22:58:39,493 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:41,081 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:43,733 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:47,059 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:47,854 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:56,419 | james.smtpserver | Successfully spooled mail Mail1499525936417-3 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  22:58:58,386 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:00,237 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:00,757 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:02,297 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:03,124 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:04,085 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:05,076 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,141 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,432 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,986 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:21,416 | james.imapserver | The session has been closed.
+INFO  22:59:24,039 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:29,475 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:30,136 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:31,004 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:31,948 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:32,769 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:33,459 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:41,667 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:52,295 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:53,016 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:04,902 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:06,158 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:14,514 | james.smtpserver | Successfully spooled mail Mail1499526014512-5 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  23:00:16,130 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,079 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,527 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,704 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,904 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:18,100 | james.imapserver | The bytes could not be written to the session
+INFO  23:03:50,228 | org.apache.james.container.spring.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Sat Jul 08 23:03:50 CST 2017]; root of context hierarchy
+INFO  23:03:51,061 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'configurationProvider' of type [class org.apache.james.container.spring.lifecycle.SpringConfigurationProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23:03:51,068 | org.apache.james.container.spring.JamesServerApplicationContext | Bean 'logProvider' of type [class org.apache.james.container.spring.lifecycle.SpringLogProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  23:03:52,715 | james.domainlist | Set autodetect to: false
+INFO  23:03:52,715 | james.domainlist | Set autodetectIP to: false
+INFO  23:03:52,719 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  23:03:52,721 | james.mailserver | JAMES init...
+INFO  23:03:52,763 | james.domainlist | Local host is: 10.108.115.130
+INFO  23:03:52,763 | james.mailserver | Private Repository LocalInbox opened
+INFO  23:03:52,764 | james.mailserver | VirtualHosting supported: false
+INFO  23:03:52,766 | james.mailserver | Defaultdomain: abc.com
+INFO  23:03:52,769 | james.mailserver | JAMES ...init end
+INFO  23:03:52,804 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  23:03:52,808 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  23:03:52,813 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  23:03:52,818 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  23:03:52,822 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  23:03:52,825 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  23:03:52,829 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  23:03:52,831 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  23:03:52,836 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  23:03:52,838 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  23:03:52,840 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  23:03:52,844 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  23:03:52,846 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  23:03:52,848 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  23:03:52,850 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  23:03:53,052 | james.usersrepository | Bean  LocalUsers started.
+INFO  23:03:53,053 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  23:03:53,056 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  23:03:53,060 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  23:03:53,062 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  23:03:53,064 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  23:03:53,070 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  23:03:53,072 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  23:03:53,073 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+WARN  23:03:53,342 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  23:03:53,546 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  23:03:53,561 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  23:03:53,567 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  23:03:53,567 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  23:03:53,568 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  23:03:53,569 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  23:03:53,569 | james.smtpserver | This SMTP server requires authentication.
+INFO  23:03:53,572 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  23:03:53,572 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  23:03:53,573 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  23:03:53,626 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloWelcomeMessageHandler
+INFO  23:03:53,627 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  23:03:53,628 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  23:03:53,629 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  23:03:53,632 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.LhloCmdHandler
+INFO  23:03:53,633 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  23:03:53,633 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  23:03:53,634 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  23:03:53,634 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  23:03:53,635 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  23:03:53,635 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  23:03:53,636 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  23:03:53,636 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  23:03:53,637 | james.lmtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  23:03:53,638 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  23:03:53,639 | james.lmtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  23:03:53,663 | james.lmtpserver | Added Handler: org.apache.james.lmtpserver.DataLineLMTPMessageHookHandler
+INFO  23:03:53,666 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  23:03:53,683 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  23:03:53,687 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  23:03:53,689 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  23:03:53,691 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  23:03:53,696 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  23:03:53,698 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  23:03:53,701 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  23:03:53,704 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  23:03:53,706 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  23:03:53,710 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  23:03:53,716 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  23:03:53,719 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  23:03:53,722 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  23:03:53,725 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  23:03:53,727 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  23:03:53,731 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  23:03:53,732 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  23:03:53,732 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  23:03:53,733 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  23:03:53,734 | james.pop3server | The idle timeout will be reset every 20480 bytes.
+INFO  23:03:53,796 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  23:03:53,796 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  23:03:53,798 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  23:03:53,799 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  23:03:53,862 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  23:03:53,863 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  23:03:53,864 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  23:03:53,865 | james.remotemanager | RemoteManager Service connection backlog is: 10
+INFO  23:03:53,906 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:53,911 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  23:03:53,918 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  23:03:53,921 | james.mailetcontainer | Mailet Null instantiated.
+INFO  23:03:53,924 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  23:03:53,929 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  23:03:53,933 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  23:03:53,935 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  23:03:53,936 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:53,937 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  23:03:53,939 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  23:03:53,943 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  23:03:53,945 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:53,951 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  23:03:53,956 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  23:03:53,976 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  23:03:53,980 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  23:03:53,981 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  23:03:53,982 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:53,996 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  23:03:53,997 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  23:03:53,999 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  23:03:54,001 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:54,018 | james.mailstore | JamesMailStore init...
+INFO  23:03:54,027 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories of type MAIL with key fileMAIL
+INFO  23:03:54,041 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories of type MAIL with key dbMAIL
+INFO  23:03:54,044 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories of type MAIL with key dbfileMAIL
+INFO  23:03:54,044 | james.mailstore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories of type MAIL with key mboxMAIL
+INFO  23:03:54,046 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentObjectRepository to handle file protocol requests for repositories of type OBJECT with key fileOBJECT
+INFO  23:03:54,047 | james.mailstore | Registering Repository instance of class org.apache.james.filepair.FilePersistentStreamRepository to handle file protocol requests for repositories of type STREAM with key fileSTREAM
+INFO  23:03:54,068 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  23:03:54,071 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  23:03:54,082 | james.mailstore | added repository: file://var/mail/error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  23:03:54,088 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  23:03:54,089 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  23:03:54,091 | james.mailstore | added repository: file://var/mail/error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  23:03:54,095 | james.mailstore | added repository: file://var/mail/error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  23:03:54,099 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  23:03:54,102 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:54,104 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  23:03:54,105 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  23:03:54,106 | james.mailstore | added repository: file://var/mail/spam/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  23:03:54,107 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  23:03:54,108 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  23:03:54,109 | james.mailstore | added repository: file://var/mail/spam/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  23:03:54,110 | james.mailstore | added repository: file://var/mail/spam/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  23:03:54,111 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  23:03:54,113 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:54,116 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  23:03:54,117 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  23:03:54,117 | james.mailstore | added repository: file://var/mail/address-error/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  23:03:54,118 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  23:03:54,118 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  23:03:54,118 | james.mailstore | added repository: file://var/mail/address-error/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  23:03:54,119 | james.mailstore | added repository: file://var/mail/address-error/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  23:03:54,119 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  23:03:54,121 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:54,122 | james.mailstore | Init org.apache.james.filepair.FilePersistentObjectRepository Store
+INFO  23:03:54,122 | james.mailstore | org.apache.james.filepair.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  23:03:54,122 | james.mailstore | added repository: file://var/mail/relay-denied/OBJECT->org.apache.james.filepair.FilePersistentObjectRepository
+INFO  23:03:54,123 | james.mailstore | Init org.apache.james.filepair.FilePersistentStreamRepository Store
+INFO  23:03:54,124 | james.mailstore | org.apache.james.filepair.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  23:03:54,124 | james.mailstore | added repository: file://var/mail/relay-denied/STREAM->org.apache.james.filepair.FilePersistentStreamRepository
+INFO  23:03:54,125 | james.mailstore | added repository: file://var/mail/relay-denied/MAIL->org.apache.james.mailrepository.file.FileMailRepository
+INFO  23:03:54,125 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  23:03:54,126 | james.mailetcontainer | Matcher All instantiated.
+INFO  23:03:54,139 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  23:03:54,603 | james.fetchmail | FetchMail Disabled
+INFO  23:03:54,634 | james.mailetcontainer | JamesSpoolManager init...
+INFO  23:03:54,634 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  23:03:54,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  23:03:54,637 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  23:03:54,637 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  23:03:54,637 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  23:03:54,635 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  23:03:54,643 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,643 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  23:03:54,647 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  23:03:54,641 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  23:03:54,641 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  23:03:54,650 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,642 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  23:03:54,652 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  23:03:54,655 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  23:03:54,657 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  23:03:54,640 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  23:03:54,640 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,639 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  23:03:54,639 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,638 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,661 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,660 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,659 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,659 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,658 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,656 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,654 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,654 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,650 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:03:54,650 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  23:04:13,296 | james.imapserver | The session has been closed.
+INFO  23:04:16,088 | james.imapserver | The bytes could not be written to the session
+INFO  23:05:39,192 | james.smtpserver | Successfully spooled mail Mail1499526339171-1 from admin@abc.com on 127.0.0.1 for [user2@abc.com]
+INFO  23:05:39,298 | james.mailetcontext | Storing mail Mail1499526339171-1 in file://var/mail/address-error/
+INFO  23:05:39,633 | james.imapserver | The bytes could not be written to the session
+INFO  23:05:40,778 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:04,837 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:26,169 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:27,735 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:22,174 | james.smtpserver | Successfully spooled mail Mail1499526502172-3 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  23:08:24,435 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:29,019 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:40,118 | james.imapserver | The bytes could not be written to the session
+INFO  23:09:17,791 | james.imapserver | The bytes could not be written to the session
+INFO  23:09:21,472 | james.imapserver | The bytes could not be written to the session
+INFO  23:10:58,509 | james.imapserver | The bytes could not be written to the session
+INFO  23:11:00,289 | james.imapserver | The bytes could not be written to the session

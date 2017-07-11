@@ -1,0 +1,2 @@
+INFO  10:04:21,393 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  10:04:21,394 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times

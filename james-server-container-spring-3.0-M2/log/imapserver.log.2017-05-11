@@ -1,0 +1,4 @@
+INFO  09:25:29,898 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  09:25:29,926 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  09:25:29,926 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  09:25:29,926 | james.imapserver | IMAP Service connection backlog is: 200

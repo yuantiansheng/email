@@ -1,0 +1,31 @@
+INFO  22:09:40,183 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:09:40,184 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:09:40,185 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:09:40,186 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:27:20,877 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:27:20,877 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:27:20,878 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:27:20,879 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:29:13,888 | james.imapserver | The bytes could not be written to the session
+INFO  22:30:16,104 | james.imapserver | The bytes could not be written to the session
+INFO  22:30:17,330 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:16,842 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:28,149 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:30,320 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:32,123 | james.imapserver | The bytes could not be written to the session
+INFO  22:31:33,240 | james.imapserver | The bytes could not be written to the session
+INFO  22:32:09,227 | james.imapserver | The bytes could not be written to the session
+INFO  22:32:09,988 | james.imapserver | The bytes could not be written to the session
+INFO  22:33:39,978 | james.imapserver | The bytes could not be written to the session
+INFO  22:33:49,779 | james.imapserver | The bytes could not be written to the session
+INFO  22:34:13,038 | james.imapserver | The bytes could not be written to the session
+INFO  22:34:20,128 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:07,055 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:10,336 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:20,994 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:24,668 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:28,598 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:40,829 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:46,073 | james.imapserver | The bytes could not be written to the session
+INFO  22:35:59,658 | james.imapserver | The bytes could not be written to the session
+INFO  22:36:05,346 | james.imapserver | The bytes could not be written to the session

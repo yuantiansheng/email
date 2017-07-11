@@ -1,0 +1,78 @@
+INFO  21:29:44,670 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  21:29:44,671 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  21:29:44,673 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  21:29:44,674 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  21:29:59,667 | james.imapserver | The bytes could not be written to the session
+INFO  22:15:34,813 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:15:34,814 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:15:34,814 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:15:34,815 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:22:35,800 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:22:35,800 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:22:35,801 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:22:35,802 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:56:55,149 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:56:55,149 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:56:55,151 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:56:55,152 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:57:08,471 | james.imapserver | The bytes could not be written to the session
+INFO  22:57:10,695 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:07,180 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  22:58:07,180 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  22:58:07,182 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:58:07,183 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:58:24,811 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:26,737 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:28,337 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:39,493 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:41,081 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:43,733 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:47,059 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:47,854 | james.imapserver | The bytes could not be written to the session
+INFO  22:58:58,386 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:00,237 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:00,757 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:02,297 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:03,124 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:04,085 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:05,076 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,141 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,432 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:06,986 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:21,416 | james.imapserver | The session has been closed.
+INFO  22:59:24,039 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:29,475 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:30,136 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:31,004 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:31,948 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:32,769 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:33,459 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:41,667 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:52,295 | james.imapserver | The bytes could not be written to the session
+INFO  22:59:53,016 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:04,902 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:06,158 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:16,130 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,079 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,527 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,704 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:17,904 | james.imapserver | The bytes could not be written to the session
+INFO  23:00:18,100 | james.imapserver | The bytes could not be written to the session
+INFO  23:03:53,796 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  23:03:53,796 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  23:03:53,798 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  23:03:53,799 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  23:04:13,296 | james.imapserver | The session has been closed.
+INFO  23:04:16,088 | james.imapserver | The bytes could not be written to the session
+INFO  23:05:39,633 | james.imapserver | The bytes could not be written to the session
+INFO  23:05:40,778 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:04,837 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:26,169 | james.imapserver | The bytes could not be written to the session
+INFO  23:07:27,735 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:24,435 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:29,019 | james.imapserver | The bytes could not be written to the session
+INFO  23:08:40,118 | james.imapserver | The bytes could not be written to the session
+INFO  23:09:17,791 | james.imapserver | The bytes could not be written to the session
+INFO  23:09:21,472 | james.imapserver | The bytes could not be written to the session
+INFO  23:10:58,509 | james.imapserver | The bytes could not be written to the session
+INFO  23:11:00,289 | james.imapserver | The bytes could not be written to the session

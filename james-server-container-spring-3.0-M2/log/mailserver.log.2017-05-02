@@ -1,0 +1,5 @@
+INFO  10:04:10,956 | james.mailserver | JAMES init...
+INFO  10:04:12,863 | james.mailserver | Private Repository LocalInbox opened
+INFO  10:04:12,863 | james.mailserver | VirtualHosting supported: false
+INFO  10:04:12,864 | james.mailserver | Defaultdomain: abc.com
+INFO  10:04:12,866 | james.mailserver | JAMES ...init end

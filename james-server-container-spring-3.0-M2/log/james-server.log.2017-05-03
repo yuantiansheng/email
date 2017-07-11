@@ -1,0 +1,261 @@
+INFO  11:44:24,693 | james.imapserver | The bytes could not be written to the session
+INFO  11:44:39,099 | james.imapserver | The bytes could not be written to the session
+INFO  11:45:31,716 | james.imapserver | The bytes could not be written to the session
+INFO  11:47:14,394 | james.imapserver | The bytes could not be written to the session
+INFO  11:49:42,204 | james.imapserver | The bytes could not be written to the session
+INFO  11:55:20,831 | james.imapserver | The bytes could not be written to the session
+INFO  11:55:21,817 | james.imapserver | The bytes could not be written to the session
+INFO  11:57:09,334 | james.smtpserver | Successfully spooled mail Mail1493783829215-1 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  11:58:00,324 | james.imapserver | The bytes could not be written to the session
+INFO  11:58:01,570 | james.imapserver | The bytes could not be written to the session
+INFO  11:58:05,771 | james.imapserver | The bytes could not be written to the session
+INFO  11:58:27,195 | james.imapserver | The bytes could not be written to the session
+INFO  11:58:28,876 | james.imapserver | The bytes could not be written to the session
+INFO  12:00:35,687 | james.imapserver | The bytes could not be written to the session
+INFO  12:00:44,671 | james.smtpserver | Successfully spooled mail Mail1493784044668-3 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  14:10:55,009 | james.imapserver | The bytes could not be written to the session
+INFO  14:30:58,361 | james.imapserver | The bytes could not be written to the session
+INFO  14:35:16,955 | james.imapserver | The bytes could not be written to the session
+INFO  14:35:40,134 | james.smtpserver | Successfully spooled mail Mail1493793340132-5 from admin@ljg.com on 127.0.0.1 for [user1@ljg.com]
+ERROR 14:35:40,252 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  14:35:40,253 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:35:40,263 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:35:40,264 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 0 retries
+INFO  14:35:45,370 | james.imapserver | The bytes could not be written to the session
+INFO  14:35:56,569 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:01,960 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:20,080 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:31,765 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:40,515 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:51,793 | james.imapserver | The bytes could not be written to the session
+INFO  14:36:54,706 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:00,177 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:01,395 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:11,907 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:15,458 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:21,103 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:24,674 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:31,907 | james.imapserver | The bytes could not be written to the session
+INFO  14:37:52,456 | james.imapserver | The bytes could not be written to the session
+ERROR 14:40:40,283 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  14:40:40,284 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:40:40,286 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:40:40,287 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 1 retries
+ERROR 14:45:40,304 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  14:45:40,304 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:45:40,305 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:45:40,306 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 2 retries
+ERROR 14:50:40,331 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  14:50:40,331 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:50:40,332 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:50:40,333 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 3 retries
+ERROR 14:55:40,356 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  14:55:40,356 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:55:40,357 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:55:40,358 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 4 retries
+INFO  14:56:45,630 | james.smtpserver | Successfully spooled mail Mail1493794605627-7 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  14:57:11,488 | james.smtpserver | Successfully spooled mail Mail1493794631486-9 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  14:57:14,219 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:15,449 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:18,111 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:25,787 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:27,021 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:29,730 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:30,936 | james.imapserver | The bytes could not be written to the session
+INFO  14:57:38,365 | james.imapserver | The bytes could not be written to the session
+INFO  14:58:23,398 | james.imapserver | The bytes could not be written to the session
+INFO  14:58:27,042 | james.imapserver | The bytes could not be written to the session
+INFO  14:58:40,016 | james.smtpserver | Successfully spooled mail Mail1493794720014-11 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  14:58:43,107 | james.imapserver | The bytes could not be written to the session
+INFO  14:58:51,504 | james.imapserver | The bytes could not be written to the session
+ERROR 15:00:40,459 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:00:40,459 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:00:40,460 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:00:40,461 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 5 retries
+INFO  15:02:02,326 | james.smtpserver | Successfully spooled mail Mail1493794922324-13 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  15:02:05,131 | james.imapserver | The bytes could not be written to the session
+ERROR 15:05:40,472 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:05:40,472 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:05:40,473 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:05:40,473 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 6 retries
+ERROR 15:10:40,492 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:10:40,492 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:10:40,493 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:10:40,493 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 7 retries
+ERROR 15:15:40,524 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:15:40,525 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:15:40,527 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:15:40,527 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 8 retries
+ERROR 15:20:40,606 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:20:40,607 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:20:40,608 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:20:40,609 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 9 retries
+ERROR 15:25:40,636 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:25:40,636 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:25:40,638 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:25:40,640 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 10 retries
+ERROR 15:30:40,649 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:30:40,649 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:30:40,649 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:30:40,650 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 11 retries
+ERROR 15:35:40,719 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:35:40,719 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:35:40,721 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:35:40,721 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 12 retries
+ERROR 15:40:40,746 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:40:40,746 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:40:40,748 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:40:40,749 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 13 retries
+ERROR 15:45:40,769 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:45:40,770 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:45:40,771 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:45:40,772 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 14 retries
+ERROR 15:50:40,803 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:50:40,804 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:50:40,805 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:50:40,806 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 15 retries
+ERROR 15:55:40,829 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  15:55:40,830 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:55:40,831 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:55:40,832 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 16 retries
+ERROR 16:00:40,900 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:00:40,901 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:00:40,902 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:00:40,903 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 17 retries
+ERROR 16:05:40,928 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:05:40,929 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:05:40,930 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:05:40,931 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 18 retries
+ERROR 16:10:40,974 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:10:40,974 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:10:40,975 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:10:40,976 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 19 retries
+ERROR 16:15:40,992 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:15:40,993 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:15:40,994 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:15:40,995 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 20 retries
+ERROR 16:20:41,059 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:20:41,060 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:20:41,060 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:20:41,061 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 21 retries
+ERROR 16:25:41,087 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:25:41,087 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:25:41,089 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:25:41,089 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 22 retries
+ERROR 16:30:41,165 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:30:41,165 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:30:41,166 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:30:41,167 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 23 retries
+ERROR 16:35:41,184 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:35:41,186 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:35:41,187 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:35:41,187 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 24 retries
+ERROR 16:40:41,203 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:40:41,204 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:40:41,205 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:40:41,205 | james.mailetcontext | Bouncing message Mail1493793340132-5-to-ljg.com after 25 retries
+ERROR 16:40:41,332 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:40:41,332 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:40:41,333 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:40:41,333 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 0 retries
+ERROR 16:45:41,417 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:45:41,418 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:45:41,419 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:45:41,420 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 1 retries
+ERROR 16:50:41,447 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:50:41,447 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:50:41,448 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:50:41,449 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 2 retries
+ERROR 16:55:41,525 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  16:55:41,525 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:55:41,526 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:55:41,527 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 3 retries
+ERROR 17:00:41,548 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:00:41,549 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:00:41,550 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:00:41,551 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 4 retries
+ERROR 17:05:41,635 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:05:41,636 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:05:41,639 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:05:41,639 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 5 retries
+ERROR 17:10:41,661 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:10:41,661 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:10:41,662 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:10:41,663 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 6 retries
+ERROR 17:15:41,741 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:15:41,742 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:15:41,743 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:15:41,744 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 7 retries
+ERROR 17:20:41,760 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:20:41,760 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:20:41,760 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:20:41,761 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 8 retries
+ERROR 17:25:41,823 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:25:41,823 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:25:41,824 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:25:41,824 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 9 retries
+ERROR 17:30:41,894 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:30:41,894 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:30:41,896 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:30:41,896 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 10 retries
+ERROR 17:35:41,921 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:35:41,921 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:35:41,923 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:35:41,924 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 11 retries
+ERROR 17:40:42,024 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:40:42,024 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:40:42,025 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:40:42,026 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 12 retries
+ERROR 17:45:42,056 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:45:42,056 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:45:42,058 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:45:42,060 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 13 retries
+ERROR 17:50:42,133 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:50:42,133 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:50:42,134 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:50:42,135 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 14 retries
+ERROR 17:55:42,150 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  17:55:42,150 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:55:42,151 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:55:42,152 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 15 retries
+ERROR 18:00:42,228 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:00:42,229 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:00:42,230 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:00:42,231 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 16 retries
+ERROR 18:05:42,258 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:05:42,259 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:05:42,260 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:05:42,261 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 17 retries
+ERROR 18:10:42,335 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:10:42,336 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:10:42,337 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:10:42,338 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 18 retries
+ERROR 18:15:42,360 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:15:42,361 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:15:42,362 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:15:42,362 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 19 retries
+ERROR 18:20:42,434 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:20:42,434 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:20:42,435 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:20:42,435 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 20 retries
+ERROR 18:25:42,472 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:25:42,473 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:25:42,474 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:25:42,475 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 21 retries
+ERROR 18:30:42,548 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:30:42,549 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:30:42,550 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:30:42,551 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 22 retries
+ERROR 18:35:42,580 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:35:42,580 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:35:42,582 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:35:42,582 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 23 retries
+ERROR 18:40:42,664 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:40:42,665 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:40:42,666 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:40:42,667 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 24 retries
+ERROR 18:45:42,686 | james.dnsservice | Couldn't resolve IP address for host ljg.com.
+INFO  18:45:42,686 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:45:42,688 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:45:42,689 | james.mailetcontext | Bouncing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com after 25 retries
+INFO  18:45:42,690 | james.mailetcontext | Null Sender: no bounce will be generated for Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com

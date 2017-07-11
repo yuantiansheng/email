@@ -1,0 +1,28 @@
+INFO  11:15:38,651 | org.apache.james.container.spring.JamesServerApplicationContext | Closing org.apache.james.container.spring.JamesServerApplicationContext@402f32ff: startup date [Thu May 11 09:24:58 CST 2017]; root of context hierarchy
+INFO  11:15:38,666 | james.mailetcontainer | JamesSpoolManager dispose...
+INFO  11:15:38,707 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #19
+INFO  11:15:38,711 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #1
+INFO  11:15:38,709 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #13
+INFO  11:15:38,709 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #16
+INFO  11:15:38,708 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #12
+INFO  11:15:38,709 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #17
+INFO  11:15:38,709 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #7
+INFO  11:15:38,708 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #0
+INFO  11:15:38,707 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #15
+INFO  11:15:38,708 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #11
+INFO  11:15:38,708 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #8
+INFO  11:15:38,713 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #14
+INFO  11:15:38,714 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #2
+INFO  11:15:38,714 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #18
+INFO  11:15:38,715 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #3
+INFO  11:15:38,713 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #10
+INFO  11:15:38,713 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #6
+INFO  11:15:38,713 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #4
+INFO  11:15:38,713 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #9
+INFO  11:15:38,712 | james.mailetcontainer | Stop JamesSpoolManager: Spool Thread #5
+INFO  11:15:39,670 | james.mailetcontainer | JamesSpoolManager thread shutdown completed.
+INFO  11:15:39,721 | james.remotemanager | Dispose RemoteManager Service
+INFO  11:15:39,759 | james.imapserver | Dispose IMAP Service
+INFO  11:15:39,764 | james.pop3server | Dispose POP3 Service
+INFO  11:15:39,768 | james.lmtpserver | Dispose LMTP Service
+INFO  11:15:39,771 | james.smtpserver | Dispose SMTP Service

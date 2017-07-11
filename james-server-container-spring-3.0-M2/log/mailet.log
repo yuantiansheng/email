@@ -1,0 +1,14 @@
+INFO  21:29:44,902 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  21:29:44,904 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:15:35,028 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:15:35,028 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:22:36,020 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:22:36,022 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:56:55,379 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:56:55,380 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:58:07,617 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:58:07,621 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:58:37,909 | james.mailetcontext | Storing mail Mail1499525917814-1 in file://var/mail/address-error/
+INFO  23:03:53,996 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  23:03:53,997 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  23:05:39,298 | james.mailetcontext | Storing mail Mail1499526339171-1 in file://var/mail/address-error/

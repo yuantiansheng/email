@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>	
+	 <constant name="struts.i18n.encoding" value="UTF-8"/>
+	 		<!-- 指定默认编码集 ，作用于HttpServletRequest的setCharacterEncoding（）和freemarker，vilocity的输出 -->	
+	<constant name="struts.serve.static.bowserCache" value="false"/> 
+	 		<!-- 设置浏览器是否缓存静态内容  ，默认值为true（生产环境下使用）开发阶段最好关闭 -->
+	<constant name="struts.devMode" value="true"/>
+			<!-- 开发模式下打印详细的错误信息 -->
+	<constant name="struts.ui.theme" value="simple"/>
+			<!-- 默认的试图主题  simple , xhtml ,css , ajax -->
+	<!-- 设置最大上传文件是30M -->
+	<constant name="struts.multipart.maxSize" value="31457280" />
+	<!-- 设置默认的临时文件存储位置 -->
+	<constant name="struts.multipart.saveDir" value="/fileUploadTemp" />
+   
+    <!--
+   <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+         	  禁止动态方法调用
+     -->
+     <!-- 包含用户配置信息文件 -->
+    <include file="cn/edu/pdsu/action/user/struts.user.xml"></include>
+    <!-- 验证码 action -->
+    <package name="test" namespace="/test" extends="struts-default">
+		<action name="authCode" class="cn.edu.pdsu.action.AuthCodeAction" method="execute"/>
+	</package>
+</struts>    

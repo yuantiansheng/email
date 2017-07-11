@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	margin: 0px;padding:0;font:13px/1.6 Arial, Helvetica, sans-serif;color:#437ca0;
+}
+/* 链接颜色 */
+a:link,a:visited{color:#005590;text-decoration:none}
+a:hover {text-decoration:underline;}
+#main{width:780px;margin:0px auto;}
+.setinfo{width: 550px;margin:0px auto;}
+input {font:14px verdana, Helvetica,sans-serif;font-weight:bold}
+.font12{font-size:12px;}
+ul,ol,li,span{margin: 0; padding: 0; border: 0;z-index:inherit}
+ul,ol,li {list-style:none}
+hr{color:#CCCCCC}
+.ljg {
+	font-size: 18px;
+	color: #437ca0;
+}
+.gray{
+	color:#437ca0;
+	}
+#color {
+	color: #000000
+}
+
+.wwFormTable {
+	width: 780px
+}
+
+.label {
+	text-align: right;
+	font-style: normal;
+	font-size: medium;
+	padding-right: 5px
+}
+
+.errorLabel {
+	font-style: normal;
+	color: red;
+}
+
+.errorMessage {
+	font-weight: bold;
+	color: red;
+}
+
+.checkboxLabel {
+	
+}
+
+.checkboxErrorLabel {
+	color: red;
+}
+
+.required {
+	color: red;
+	padding-right: 5px
+}
+
+.tdLabel {
+	text-align: right;
+	vertical-align: top;
+	height: 35px;
+	width: 170px
+}
+.textLeft{
+	text-align: left;
+}
+.markinfo{display: none;}
+.errorMsg {
+	font-size: 14px;
+	padding-left: 5px;
+	width: 315px
+}
+
+.message {
+	COLOR: #999
+}
+input:focus {
+	background-color: #FFFFE1
+}
+
+/*正确文本框样式*/
+#register input.valid {
+	border: 1px dotted green;
+	background-color: #D6FADD
+}
+
+/*错误文本框样式*/
+#register input.error {
+	border: 1px dotted red;
+	background-color: #FCC
+}
+
+/*错误的提示信息*/
+#register label.error ,.errorMessage{
+	color: #EA5200;
+	background: url(../images/error.gif) no-repeat
+		0px 0px;
+	padding-left: 16px;
+	font-weight: bold;
+}
+
+/*正确的提示信息*/
+#register label.valid {
+	color: #6C3;
+	background: url(../images/valid.gif) no-repeat
+		0px 0px;
+}
+#register input.username{
+	width: 190px
+}
+#register input.authcode{
+	width: 100px
+} 
+#register input {
+	height: 25px;
+	width: 270px
+}
+
+.textarea{font-size: 14px; height: 98px;font-weight:bold ;outline: 0 none;overflow: auto;padding: 2px;resize: none;width: 268px;}
+.textarea:focus{background-color: #FFFFE1}

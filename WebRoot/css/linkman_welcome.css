@@ -1,0 +1,132 @@
+@CHARSET "utf-8";
+body {
+	color: #000000;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: auto;
+	overflow: hidden;
+	height: auto;
+	margin-left:10px;
+}
+.gray{
+	color: #437CA0;
+}
+.top {
+	height: 30px;
+	background: #A5E6E9;
+	padding-left: 10px;
+    padding-top: 5px;
+}
+.add_button{
+	font:13px/1.6 Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.bottom{
+    padding-left: 10px;
+	padding-top: 5px;
+}
+.font_color {
+	color: #565656;
+	line-height: 25px;
+}
+
+.hb {
+	width: 550px;
+}
+
+.fx {
+	width: 275px;
+	height: 85px;
+	position: relative;
+	float: left;
+}
+
+.dE {
+	left: 8px;
+	top: 20px;
+}
+
+.dE,.dR,.dS {
+	position: absolute;
+}
+
+.user_group {
+	height: 32px;
+	width: 32px;
+	background-image: url("../images/user_group.png");
+}
+.set_userInfo {
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/set_userInfo.png");
+}
+.set_password{
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/set_password.png");
+}
+.set_question{
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/set_question.png");
+}
+.set_email{
+	height: 48px;
+	width: 48px;
+	background-image: url("../images/set_email.png");
+}
+.user_add {
+	height: 32px;
+	width: 32px;
+	background-image: url("../images/user_add.png");
+}
+
+.dR {
+	font-size: 14px;
+	left: 60px;
+	line-height: 24px;
+	top: 12px;
+}
+
+a {
+	color: #005590;
+}
+
+.dS {
+	color: #686868;
+	left: 60px;
+	line-height: 20px;
+	top: 36px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px
+}
+.lk_m_t{/*联系人列表表格*/
+width: 100%;
+table-layout: fixed;
+overflow:hidden;
+text-align:left;
+margin: 0px;
+padding: 0px;
+}
+.lk_m_t tr td,.lk_m_t tr{overflow: hidden;border-right: 1px solid #D6D6D6;border-bottom:1px solid #D6D6D6;}
+.lk_m_t tr:hover{background-image: url(../images/receive_btn.png);background-repeat: repeat-x;background-position: 0px -3px;cursor:pointer;}
+.title{
+	background-image:url(../images/tr_title.png); 
+	background-position: 0 0px;
+}
+.tr{
+	height: 25px;
+}
+.even{background-color: #E9FCEF;}
+.odd{background-color: #FFF;}
+.fc{color: #565656;}
+.ckb{text-align: center;width: 28px;}
+.name{width: 140px;}
+.emailAdd{width: auto;}
+.phoneNum{width: 120px;border-bottom:1px solid #D6D6D6;}

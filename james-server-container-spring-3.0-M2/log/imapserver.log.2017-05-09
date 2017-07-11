@@ -1,0 +1,7 @@
+INFO  09:26:23,969 | james.imapserver | IMAP Service is running on: 10.108.115.130
+INFO  09:26:23,969 | james.imapserver | IMAP Service handler hello name is: 10.108.115.130
+INFO  09:26:23,971 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  09:26:23,972 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  09:39:37,300 | james.imapserver | The bytes could not be written to the session
+INFO  09:39:37,300 | james.imapserver | The bytes could not be written to the session
+INFO  09:40:49,379 | james.imapserver | The bytes could not be written to the session

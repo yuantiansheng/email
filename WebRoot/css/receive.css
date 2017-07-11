@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.main{
+	width:97%;
+	height:auto;
+	overflow:hidden;
+	margin-top:10px;margin-left:20px;margin-bottom:10px;margin-right:25px;
+}
+.font_20{font-size:20px;}
+.font_14{font-size:14px;}
+.font_12{font-size:12px;}
+.font_12{font-size:12px;}
+.inbox {font-size:16px}
+.red{color:#FF6666}
+.title{margin-bottom:10px}
+.tool{margin-bottom:10px;height:30px;background: #A5E6E9;   padding-left: 10px;
+    padding-top: 5px;}
+a:link, a:visited{
+    color: #0068B7;
+    text-decoration: underline;
+}
+.menu{float:left}
+.page{float:right;}
+.message{clear:left}
+.sel{margin-left:10px}
+.table{
+	background-image:url(../images/tr_title.png); 
+    background-position: 0 0px;
+    border-color: #D6D6D6 -moz-use-text-color;
+    border-right: medium none;
+    border-style: solid none;
+    border-width: 1px medium;
+	width:100%;
+	table-layout:fixed;
+	overflow:hidden;}
+.table tbody tr th,.table tbody tr td{border-right: 1px solid #D6D6D6;}
+.icoibx, .unread_message,.read_message,.attachment{background-image:url(../images/ico.gif); background-repeat: no-repeat;}
+.ibx_th_f{width: 20px;}
+.ibx_th_chkbx{text-align: center;width: 28px;}
+.ibx_th_icoinfo{border-right: 1px solid #D6D6D6;text-align: center;width: 32px;}
+.icoibx{height: 16px;line-height: 16px;padding: 0 8px; background-position: -168px -8px;}
+.table .ibx_th_from{border-right: 1px solid #D6D6D6; padding: 0 6px;width: 170px;}
+th,td {
+    text-align: left;
+}
+.table th,.table td {
+    height: 24px;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+}
+.table  .ibx_th_subject{border-right: 1px solid #D6D6D6;padding: 0 6px;overflow: hidden;}
+.table  .ibx_th_date{border-right: 1px solid #D6D6D6;padding: 0 6px;width: 75px; overflow: hidden;}
+.table  .ibx_th_attach{border-right: 1px solid #D6D6D6;width: 32px; }
+.table  .attachment{height: 16px; line-height: 16px; background-position: -135px -8px; padding: 0 8px; }
+.unread_message{height: 16px;line-height: 16px;padding: 0 8px; background-position: -200px -8px;}
+.read_message{height: 16px;line-height: 16px;padding: 0 8px; background-position: -265px -135px;}
+#content_list a:link,#content_list a:visited{  overflow: hidden;
+    text-decoration: none;
+    white-space: nowrap; color: #000; font-weight:bold;}
+#content_list a:hover{text-decoration:underline;cursor:pointer}
+#content_list tr:hover {background-image: url(../images/receive_btn.png);background-repeat: repeat-x;
+	background-position: 0px -3px;cursor:pointer;}
+/*不同行背景颜色不用*/
+#content_list .even{background-color: #E9FCEF;}
+#content_list .odd{background-color: #FFF;}
+.ibx_lst_bextra {
+    background-color: #E4F1FA;
+    border-bottom: 1px solid #EDEDED;
+    color: #666666;
+    cursor: default;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+	margin-top:0px;
+	font-weight:normal;
+}

@@ -1,0 +1,71 @@
+INFO  22:09:38,130 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:09:38,135 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:09:38,138 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:09:38,141 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:09:38,145 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:09:38,146 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:09:38,149 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:09:38,152 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:09:38,157 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:09:38,159 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:09:38,167 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:09:38,171 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:09:38,173 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:09:38,175 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:09:38,177 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:09:38,897 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:09:38,902 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:09:38,905 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:09:38,906 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:09:38,909 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:09:38,940 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:09:38,942 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:09:38,944 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+INFO  22:09:39,768 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:09:39,801 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:09:39,806 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:09:39,806 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:09:39,807 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:09:39,808 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:09:39,809 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:09:39,811 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:09:39,812 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:09:39,812 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:10:56,505 | james.smtpserver | Successfully spooled mail Mail1499177456404-1 from admin@abc.com on 127.0.0.1 for [690559724@qq.com]
+INFO  22:11:59,355 | james.smtpserver | Successfully spooled mail Mail1499177519353-3 from admin@abc.com on 127.0.0.1 for [690559724@qq.com]
+INFO  22:27:19,880 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesWelcomeMessageHandler
+INFO  22:27:19,884 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.SMTPCommandDispatcherLineHandler
+INFO  22:27:19,887 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.AuthCmdHandler
+INFO  22:27:19,891 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesDataCmdHandler
+INFO  22:27:19,894 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.EhloCmdHandler
+INFO  22:27:19,896 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ExpnCmdHandler
+INFO  22:27:19,898 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HeloCmdHandler
+INFO  22:27:19,901 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.HelpCmdHandler
+INFO  22:27:19,905 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesMailCmdHandler
+INFO  22:27:19,907 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.NoopCmdHandler
+INFO  22:27:19,910 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.QuitCmdHandler
+INFO  22:27:19,914 | james.smtpserver | Added Handler: org.apache.james.smtpserver.JamesRcptCmdHandler
+INFO  22:27:19,916 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.RsetCmdHandler
+INFO  22:27:19,919 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.VrfyCmdHandler
+INFO  22:27:19,921 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.MailSizeEsmtpExtension
+INFO  22:27:20,135 | james.smtpserver | Added Handler: org.apache.james.smtpserver.UsersRepositoryAuthHook
+INFO  22:27:20,138 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AuthRequiredToRelayRcptHook
+INFO  22:27:20,141 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SenderAuthIdentifyVerificationRcptHook
+INFO  22:27:20,144 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.PostmasterAbuseRcptHook
+INFO  22:27:20,146 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.ReceivedDataLineFilter
+INFO  22:27:20,152 | james.smtpserver | Added Handler: org.apache.james.smtpserver.DataLineJamesMessageHookHandler
+INFO  22:27:20,154 | james.smtpserver | Added Handler: org.apache.james.protocols.smtp.core.esmtp.StartTlsCmdHandler
+INFO  22:27:20,155 | james.smtpserver | Added Handler: org.apache.james.smtpserver.AddDefaultAttributesMessageHook
+INFO  22:27:20,619 | james.smtpserver | Added Handler: org.apache.james.smtpserver.SendMailHandler
+INFO  22:27:20,637 | james.smtpserver | Added Handler: org.apache.james.smtpserver.fastfail.ValidRcptHandler
+INFO  22:27:20,643 | james.smtpserver | SMTP Service is running on: 10.108.115.130
+INFO  22:27:20,643 | james.smtpserver | SMTP Service handler hello name is: 10.108.115.130
+INFO  22:27:20,644 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:27:20,644 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:27:20,645 | james.smtpserver | This SMTP server requires authentication.
+INFO  22:27:20,649 | james.smtpserver | Authorized addresses: [127.0.0.0/255.0.0.0]
+INFO  22:27:20,649 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:27:20,650 | james.smtpserver | The idle timeout will be reset every 20480 bytes.
+INFO  22:30:04,860 | james.smtpserver | Successfully spooled mail Mail1499178604856-1 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  22:35:17,502 | james.smtpserver | Successfully spooled mail Mail1499178917500-3 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  22:35:36,936 | james.smtpserver | Successfully spooled mail Mail1499178936934-5 from user1@abc.com on 127.0.0.1 for [user1@abc.com]

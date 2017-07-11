@@ -1,0 +1,4 @@
+INFO  09:26:24,046 | james.remotemanager | RemoteManager Service is running on: 10.108.115.130
+INFO  09:26:24,047 | james.remotemanager | RemoteManager Service handler hello name is: 10.108.115.130
+INFO  09:26:24,049 | james.remotemanager | RemoteManager Service handler connection timeout is: 600
+INFO  09:26:24,049 | james.remotemanager | RemoteManager Service connection backlog is: 10

@@ -1,0 +1,20 @@
+INFO  09:25:27,739 | james.pop3server | Added Handler: org.apache.james.pop3server.core.WelcomeMessageHandler
+INFO  09:25:27,744 | james.pop3server | Added Handler: org.apache.james.pop3server.core.POP3CommandDispatcherLineHandler
+INFO  09:25:27,746 | james.pop3server | Added Handler: org.apache.james.pop3server.core.CapaCmdHandler
+INFO  09:25:27,749 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UserCmdHandler
+INFO  09:25:27,753 | james.pop3server | Added Handler: org.apache.james.pop3server.core.PassCmdHandler
+INFO  09:25:27,756 | james.pop3server | Added Handler: org.apache.james.pop3server.core.ListCmdHandler
+INFO  09:25:27,759 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UidlCmdHandler
+INFO  09:25:27,761 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RsetCmdHandler
+INFO  09:25:27,763 | james.pop3server | Added Handler: org.apache.james.pop3server.core.DeleCmdHandler
+INFO  09:25:27,765 | james.pop3server | Added Handler: org.apache.james.pop3server.core.NoopCmdHandler
+INFO  09:25:27,768 | james.pop3server | Added Handler: org.apache.james.pop3server.core.RetrCmdHandler
+INFO  09:25:27,773 | james.pop3server | Added Handler: org.apache.james.pop3server.core.TopCmdHandler
+INFO  09:25:27,774 | james.pop3server | Added Handler: org.apache.james.pop3server.core.StatCmdHandler
+INFO  09:25:27,776 | james.pop3server | Added Handler: org.apache.james.pop3server.core.QuitCmdHandler
+INFO  09:25:27,777 | james.pop3server | Added Handler: org.apache.james.pop3server.core.UnknownCmdHandler
+INFO  09:25:27,780 | james.pop3server | POP3 Service is running on: 10.108.115.130
+INFO  09:25:27,780 | james.pop3server | POP3 Service handler hello name is: 10.108.115.130
+INFO  09:25:27,781 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  09:25:27,781 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  09:25:27,781 | james.pop3server | The idle timeout will be reset every 20480 bytes.

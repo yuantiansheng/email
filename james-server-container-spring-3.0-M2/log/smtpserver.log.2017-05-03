@@ -1,0 +1,7 @@
+INFO  11:57:09,334 | james.smtpserver | Successfully spooled mail Mail1493783829215-1 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  12:00:44,671 | james.smtpserver | Successfully spooled mail Mail1493784044668-3 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  14:35:40,134 | james.smtpserver | Successfully spooled mail Mail1493793340132-5 from admin@ljg.com on 127.0.0.1 for [user1@ljg.com]
+INFO  14:56:45,630 | james.smtpserver | Successfully spooled mail Mail1493794605627-7 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  14:57:11,488 | james.smtpserver | Successfully spooled mail Mail1493794631486-9 from admin@abc.com on 127.0.0.1 for [user1@abc.com]
+INFO  14:58:40,016 | james.smtpserver | Successfully spooled mail Mail1493794720014-11 from user1@abc.com on 127.0.0.1 for [admin@abc.com]
+INFO  15:02:02,326 | james.smtpserver | Successfully spooled mail Mail1493794922324-13 from user1@abc.com on 127.0.0.1 for [admin@abc.com]

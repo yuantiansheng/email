@@ -1,0 +1,43 @@
+@CHARSET "utf-8";
+body {
+    color: #000000;
+    font-size: 12px;
+    line-height: 166.6%;
+}
+.gray{color:#437ca0;}
+.main{
+	width: auto;
+	overflow: hidden;
+	height: auto;
+	margin-left:10px;
+}
+.right{width:auto;overflow:hidden;padding-left:0px;height: auto;}
+.tootle{ height:30px;padding-left:3px;padding-top:5px;background:#A5E6E9}
+.left{
+	width:180px;
+	height:auto;
+	overflow:hidden;
+	background-color: #DDF2E0;
+	border-right: 2px solid #A5E6E9;
+}
+.l{	float:left;}
+.input{width:145px;border-right: medium none;height: 15px;color: #999;}
+.input_focse{color: black;}
+.one{display: inline;}
+#group{ margin-top:15px;margin-bottom:20px;}
+#group a{text-decoration:underline;color:#0033FF}
+.left ul li,.left ul { padding:0px;margin:0px;margin-top:8px; list-style:none;text-align:center}
+.left ul li:hover{font-weight: bold;background-color: #A5E6E9;}
+.list_focse{font-weight: bold;background-color:#A5E6E9}
+a:link,a:visited{text-decoration:none; color:#000000}
+a:hover {text-decoration:underline;}
+.sch_btn {background-image:url("../images/search.png");background-position: 0px 0px;
+width: 22px;
+height: 20px;
+border-style: none;
+}
+.sch_btn:hover{background-position: 0px -20px; cursor:pointer}
+
+
+
+

@@ -1,0 +1,157 @@
+INFO  14:35:40,253 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:35:40,263 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:35:40,264 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 0 retries
+INFO  14:40:40,284 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:40:40,286 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:40:40,287 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 1 retries
+INFO  14:45:40,304 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:45:40,305 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:45:40,306 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 2 retries
+INFO  14:50:40,331 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:50:40,332 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:50:40,333 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 3 retries
+INFO  14:55:40,356 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  14:55:40,357 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  14:55:40,358 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 4 retries
+INFO  15:00:40,459 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:00:40,460 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:00:40,461 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 5 retries
+INFO  15:05:40,472 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:05:40,473 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:05:40,473 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 6 retries
+INFO  15:10:40,492 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:10:40,493 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:10:40,493 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 7 retries
+INFO  15:15:40,525 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:15:40,527 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:15:40,527 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 8 retries
+INFO  15:20:40,607 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:20:40,608 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:20:40,609 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 9 retries
+INFO  15:25:40,636 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:25:40,638 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:25:40,640 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 10 retries
+INFO  15:30:40,649 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:30:40,649 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:30:40,650 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 11 retries
+INFO  15:35:40,719 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:35:40,721 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:35:40,721 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 12 retries
+INFO  15:40:40,746 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:40:40,748 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:40:40,749 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 13 retries
+INFO  15:45:40,770 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:45:40,771 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:45:40,772 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 14 retries
+INFO  15:50:40,804 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:50:40,805 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:50:40,806 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 15 retries
+INFO  15:55:40,830 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  15:55:40,831 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  15:55:40,832 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 16 retries
+INFO  16:00:40,901 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:00:40,902 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:00:40,903 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 17 retries
+INFO  16:05:40,929 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:05:40,930 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:05:40,931 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 18 retries
+INFO  16:10:40,974 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:10:40,975 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:10:40,976 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 19 retries
+INFO  16:15:40,993 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:15:40,994 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:15:40,995 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 20 retries
+INFO  16:20:41,060 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:20:41,060 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:20:41,061 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 21 retries
+INFO  16:25:41,087 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:25:41,089 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:25:41,089 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 22 retries
+INFO  16:30:41,165 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:30:41,166 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:30:41,167 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 23 retries
+INFO  16:35:41,186 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:35:41,187 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:35:41,187 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com into outgoing after 24 retries
+INFO  16:40:41,204 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:40:41,205 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com: 
+INFO  16:40:41,205 | james.mailetcontext | Bouncing message Mail1493793340132-5-to-ljg.com after 25 retries
+INFO  16:40:41,332 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:40:41,333 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:40:41,333 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 0 retries
+INFO  16:45:41,418 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:45:41,419 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:45:41,420 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 1 retries
+INFO  16:50:41,447 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:50:41,448 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:50:41,449 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 2 retries
+INFO  16:55:41,525 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  16:55:41,526 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  16:55:41,527 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 3 retries
+INFO  17:00:41,549 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:00:41,550 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:00:41,551 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 4 retries
+INFO  17:05:41,636 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:05:41,639 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:05:41,639 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 5 retries
+INFO  17:10:41,661 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:10:41,662 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:10:41,663 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 6 retries
+INFO  17:15:41,742 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:15:41,743 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:15:41,744 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 7 retries
+INFO  17:20:41,760 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:20:41,760 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:20:41,761 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 8 retries
+INFO  17:25:41,823 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:25:41,824 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:25:41,824 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 9 retries
+INFO  17:30:41,894 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:30:41,896 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:30:41,896 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 10 retries
+INFO  17:35:41,921 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:35:41,923 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:35:41,924 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 11 retries
+INFO  17:40:42,024 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:40:42,025 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:40:42,026 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 12 retries
+INFO  17:45:42,056 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:45:42,058 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:45:42,060 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 13 retries
+INFO  17:50:42,133 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:50:42,134 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:50:42,135 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 14 retries
+INFO  17:55:42,150 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  17:55:42,151 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  17:55:42,152 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 15 retries
+INFO  18:00:42,229 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:00:42,230 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:00:42,231 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 16 retries
+INFO  18:05:42,259 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:05:42,260 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:05:42,261 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 17 retries
+INFO  18:10:42,336 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:10:42,337 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:10:42,338 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 18 retries
+INFO  18:15:42,361 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:15:42,362 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:15:42,362 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 19 retries
+INFO  18:20:42,434 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:20:42,435 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:20:42,435 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 20 retries
+INFO  18:25:42,473 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:25:42,474 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:25:42,475 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 21 retries
+INFO  18:30:42,549 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:30:42,550 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:30:42,551 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 22 retries
+INFO  18:35:42,580 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:35:42,582 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:35:42,582 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 23 retries
+INFO  18:40:42,665 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:40:42,666 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:40:42,667 | james.mailetcontext | Storing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com into outgoing after 24 retries
+INFO  18:45:42,686 | james.mailetcontext | Temporary problem looking up mail server for host: ljg.com
+INFO  18:45:42,688 | james.mailetcontext | Temporary exception delivering mail (Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com: 
+INFO  18:45:42,689 | james.mailetcontext | Bouncing message Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com after 25 retries
+INFO  18:45:42,690 | james.mailetcontext | Null Sender: no bounce will be generated for Mail1493793340132-5-to-ljg.com-!548539-to-ljg.com

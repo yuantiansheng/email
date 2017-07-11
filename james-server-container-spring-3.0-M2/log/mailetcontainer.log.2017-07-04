@@ -1,0 +1,144 @@
+INFO  22:09:40,346 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,373 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:09:40,380 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:09:40,389 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:09:40,392 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:09:40,395 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,399 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:09:40,400 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,400 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,402 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,404 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:09:40,407 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:09:40,408 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,432 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:09:40,436 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:09:40,462 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:09:40,466 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:09:40,467 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:09:40,468 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,495 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:09:40,497 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,623 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,624 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,631 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,632 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,646 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,647 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,653 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:09:40,657 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:09:40,687 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:09:41,384 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:09:41,384 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:09:41,386 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:09:41,386 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:09:41,385 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:09:41,387 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,387 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:09:41,391 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:09:41,394 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,391 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:09:41,395 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,396 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,399 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,402 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,406 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,407 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,410 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,410 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,412 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,413 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,415 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,416 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,417 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,419 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:09:41,421 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:20,992 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:20,997 | james.mailetcontainer | Mailet PostmasterAlias instantiated.
+INFO  22:27:21,007 | james.mailetcontainer | Matcher RelayLimit=30 instantiated.
+INFO  22:27:21,024 | james.mailetcontainer | Mailet Null instantiated.
+INFO  22:27:21,028 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:27:21,032 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,036 | james.mailetcontainer | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  22:27:21,038 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,040 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,040 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,042 | james.mailetcontainer | Matcher SMTPAuthSuccessful instantiated.
+INFO  22:27:21,045 | james.mailetcontainer | Mailet SetMimeHeader instantiated.
+INFO  22:27:21,047 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,055 | james.mailetcontainer | Mailet VirtualUserTable instantiated.
+INFO  22:27:21,060 | james.mailetcontainer | Matcher RecipientIsLocal instantiated.
+INFO  22:27:21,080 | james.mailetcontainer | Mailet LocalDelivery instantiated.
+INFO  22:27:21,084 | james.mailetcontainer | Matcher HostIsLocal instantiated.
+INFO  22:27:21,085 | james.mailetcontainer | Mailet ToProcessor instantiated.
+INFO  22:27:21,086 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,103 | james.mailetcontainer | Mailet RemoteDelivery instantiated.
+INFO  22:27:21,104 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,157 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,160 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,166 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,167 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,171 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,172 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,176 | james.mailetcontainer | Mailet ToRepository instantiated.
+INFO  22:27:21,177 | james.mailetcontainer | Matcher All instantiated.
+INFO  22:27:21,192 | james.mailetcontainer | Mailet DSNBounce instantiated.
+INFO  22:27:21,795 | james.mailetcontainer | JamesSpoolManager init...
+INFO  22:27:21,796 | james.mailetcontainer | Spooler Manager uses 20 Thread(s)
+INFO  22:27:21,797 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #1
+INFO  22:27:21,797 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #2
+INFO  22:27:21,798 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,798 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #3
+INFO  22:27:21,798 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #4
+INFO  22:27:21,798 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #5
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #6
+INFO  22:27:21,799 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #0
+INFO  22:27:21,800 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,799 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,800 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,804 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #7
+INFO  22:27:21,804 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #17
+INFO  22:27:21,812 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #19
+INFO  22:27:21,812 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #18
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #16
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #13
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #10
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #9
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #8
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #12
+INFO  22:27:21,811 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #11
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #14
+INFO  22:27:21,810 | james.mailetcontainer | Run JamesSpoolManager: Spool Thread #15
+INFO  22:27:21,818 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,816 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,816 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,815 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,826 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,827 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,833 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,840 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,877 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,880 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,882 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,884 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue
+INFO  22:27:21,887 | james.mailetcontainer | Spool=org.apache.james.queue.activemq.ActiveMQMailQueue

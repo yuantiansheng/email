@@ -1,0 +1,8 @@
+INFO  22:09:37,905 | james.domainlist | Set autodetect to: false
+INFO  22:09:37,907 | james.domainlist | Set autodetectIP to: false
+INFO  22:09:37,916 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:09:38,048 | james.domainlist | Local host is: 10.108.115.130
+INFO  22:27:19,801 | james.domainlist | Set autodetect to: false
+INFO  22:27:19,802 | james.domainlist | Set autodetectIP to: false
+INFO  22:27:19,808 | james.domainlist | Bean  org.apache.james.domainlist.xml.XMLDomainList started.
+INFO  22:27:19,844 | james.domainlist | Local host is: 10.108.115.130

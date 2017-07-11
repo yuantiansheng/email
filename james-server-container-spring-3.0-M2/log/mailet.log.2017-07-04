@@ -1,0 +1,118 @@
+INFO  22:09:40,492 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:09:40,494 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:27:21,099 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 24 attempts 
+INFO  22:27:21,100 | james.mailetcontext | Delay of 300000 msecs is now attempted: 25 times
+INFO  22:27:23,312 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:27:23,313 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:27:23,314 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:27:23,314 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:27:23,338 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 0 retries
+INFO  22:27:23,339 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 0 retries
+INFO  22:32:23,478 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:32:23,481 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:32:23,483 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 1 retries
+INFO  22:32:23,538 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:32:23,540 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:32:23,545 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 1 retries
+INFO  22:37:23,573 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:37:23,574 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:37:23,574 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 2 retries
+INFO  22:37:23,611 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:37:23,612 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:37:23,613 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 2 retries
+INFO  22:42:23,666 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:42:23,669 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:42:23,671 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 3 retries
+INFO  22:42:23,728 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:42:23,730 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:42:23,731 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 3 retries
+INFO  22:47:23,746 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:47:23,752 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:47:23,753 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 4 retries
+INFO  22:47:23,788 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:47:23,789 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:47:23,790 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 4 retries
+INFO  22:52:23,834 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:52:23,838 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:52:23,839 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 5 retries
+INFO  22:52:23,881 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:52:23,883 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:52:23,886 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 5 retries
+INFO  22:57:23,923 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:57:23,925 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  22:57:23,925 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 6 retries
+INFO  22:57:23,972 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  22:57:23,973 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  22:57:23,974 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 6 retries
+INFO  23:02:24,025 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:02:24,031 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:02:24,032 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 7 retries
+INFO  23:02:24,078 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:02:24,079 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:02:24,080 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 7 retries
+INFO  23:07:24,124 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:07:24,125 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:07:24,125 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 8 retries
+INFO  23:07:24,156 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:07:24,157 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:07:24,157 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 8 retries
+INFO  23:12:24,161 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:12:24,161 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:12:24,162 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 9 retries
+INFO  23:12:24,195 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:12:24,196 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:12:24,196 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 9 retries
+INFO  23:17:24,199 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:17:24,200 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:17:24,200 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 10 retries
+INFO  23:17:24,263 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:17:24,264 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:17:24,264 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 10 retries
+INFO  23:22:24,295 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:22:24,297 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:22:24,297 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 11 retries
+INFO  23:22:24,343 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:22:24,345 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:22:24,347 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 11 retries
+INFO  23:27:24,375 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:27:24,377 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:27:24,377 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 12 retries
+INFO  23:27:24,422 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:27:24,423 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:27:24,423 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 12 retries
+INFO  23:32:24,458 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:32:24,459 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:32:24,461 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 13 retries
+INFO  23:32:24,495 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:32:24,496 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:32:24,496 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 13 retries
+INFO  23:37:24,534 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:37:24,536 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:37:24,537 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 14 retries
+INFO  23:37:24,577 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:37:24,578 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:37:24,579 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 14 retries
+INFO  23:42:24,601 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:42:24,601 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:42:24,602 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 15 retries
+INFO  23:42:24,637 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:42:24,637 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:42:24,637 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 15 retries
+INFO  23:47:24,670 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:47:24,672 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:47:24,673 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 16 retries
+INFO  23:47:24,715 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:47:24,715 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:47:24,716 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 16 retries
+INFO  23:52:24,742 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:52:24,743 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:52:24,743 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 17 retries
+INFO  23:52:24,780 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:52:24,780 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:52:24,781 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 17 retries
+INFO  23:57:24,798 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:57:24,798 | james.mailetcontext | Temporary exception delivering mail (Mail1499177519353-3-to-qq.com: 
+INFO  23:57:24,799 | james.mailetcontext | Storing message Mail1499177519353-3-to-qq.com into outgoing after 18 retries
+INFO  23:57:24,857 | james.mailetcontext | Temporary problem looking up mail server for host: qq.com
+INFO  23:57:24,858 | james.mailetcontext | Temporary exception delivering mail (Mail1499177456404-1-to-qq.com: 
+INFO  23:57:24,858 | james.mailetcontext | Storing message Mail1499177456404-1-to-qq.com into outgoing after 18 retries

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+  		"-//OpenSymphony Group//XWork Validator 1.0.3//EN"
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.3.dtd">
+<validators>
+	<field name="user.username">
+		<field-validator type="requiredstring">
+			<message>用户名是必需的！</message>
+		</field-validator>
+		<field-validator type="regex">
+			<param name="expression">^[a-zA-Z0-9._-]{3,25}</param>
+			<message>用户名必须是3到25位的数字或字符！</message>
+		</field-validator>
+	</field>
+
+	<field name="user.password">
+		<field-validator type="requiredstring">
+			<message>密码是必需的！</message>
+		</field-validator>
+	</field>
+	<field name="user.password2">
+		<field-validator type="requiredstring">
+			<message>确认密码是必需的！</message>
+		</field-validator>
+		<field-validator type="fieldexpression">
+			<param name="expression">(user.password==user.password2)</param>
+			<message>确认密码和密码不相等！</message>
+		</field-validator>
+	</field>
+	<field name="user.pwdEmail">
+		<field-validator type="requiredstring">
+			<message>密码查询邮箱是必需的！</message>
+		</field-validator>
+		<field-validator type="email">
+			<message><![CDATA[ 请填写一个邮箱地址！ ]]></message>
+		</field-validator>
+	</field>
+	<field name="user.question">
+		<field-validator type="fieldexpression">
+			<param name="expression">(user.question!="-1")</param>
+			<message>密码查询问题是必需的！</message>
+		</field-validator>
+	</field>
+	<field name="user.answer">
+		<field-validator type="requiredstring">
+			<message>密码查询答案是必需的！</message>
+		</field-validator>
+	</field>
+	<field name="user.phoneNum">
+		<field-validator type="regex">
+			<param name="expression">^\+?[0-9]{11,14}</param>
+			<message>请填写正确的手机号码！</message>
+		</field-validator>
+	</field>
+</validators>
+	

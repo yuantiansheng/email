@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<!-- struts 用户配置文件 -->
+<struts>	
+ <!-- struts与spring整合 action类交个spring容器来处理，需要配置action的class属性为spring容器的bean对象 -->
+	<package name="user" namespace="/user" extends="struts-default">
+	   <!-- 配置权限拦截器 -->
+		<interceptors>
+			<interceptor name="loginInter" class="userLoginInterceptor"></interceptor>
+			<interceptor-stack name="loginInterceptor">
+				<interceptor-ref name="loginInter"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		
+	   <!-- 全局转发 -->
+		<global-results>
+	   		<result name="index" type="redirect">/index.jsp</result>
+	   </global-results>
+	
+		<!-- 用户登录 -->
+		<action name="login" class="userLoginAction">
+			<result name="success" type="redirectAction">
+				<param name="actionName">main</param>
+				<param name="namespace">/user</param>
+			</result>
+			<result name="login">/user/user_login.jsp </result>
+		</action>
+		
+		<!-- 登录成功action -->
+		<action name="main" class="userMainAction">
+			<result name="success">/user/user_main.jsp</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 用户注册,注册成功直接跳转到邮箱主页面 -->
+		<action name="register" class="userRegisterAction">
+			<result name="success">/user/user_register_success.jsp</result>
+			<result name="input">/user/register.jsp</result>
+			<result name="findPassword1">/user/user_find_password1.jsp</result>
+			<result name="findPassword2" type="redirect">/user/user_find_password2.jsp</result>
+			<!-- 配置找回密码的两种方式 -->
+			<result name="question" >/user/user_find_byquestion.jsp</result>
+			<result name="emailSuccess">/user/user_find_byemail.jsp</result>
+			<result name="emailFailed" type="redirect">/user/user_find_byemailFailed.jsp</result>
+			<result name="questionSuccess" type="redirect">/user/user_find_questionSuccess.jsp</result>
+		</action>
+		
+		<!-- 用户接收邮件 -->
+		<action name="receive" class="userReceiveMailAction">
+			<result name="success">/user/user_receive_mail.jsp</result>
+			<result name="readMail">/user/user_read_mail.jsp</result>
+			<result name="download" type="redirectAction">
+				<param name="actionName">fileDownLoad</param>
+				<param name="namespace">/user</param>
+				<param name="fileName">${fileName}</param>
+				<param name="path">${path}</param>
+			</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 修改用户基本信息 -->
+		<action name="changeInfo" class="userChangeInfoAction">
+			<result name="changeInfo">/user/user_reset_info.jsp</result>
+			<result name="changeQuestion">/user/user_reset_question.jsp</result>
+			<result name="changePassword">/user/user_reset_password.jsp</result>
+			<result name="changePwdEmail">/user/user_reset_pwdemail.jsp</result>
+			<result name="findPwdEmail">/user/user_reset_pwdemail.jsp</result>
+			<result name="updateQuestion">/user/user_reset_updateQuestion.jsp</result>
+			<result name="success">/user/user_reset_info_success.jsp</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 用户联系人操作 -->
+		<action name="linkman" class="userLinkManAction">
+			<result name="success">/user/linkman/user_linkman_main.jsp</result>
+			<result name="addGroupFail">/user/linkman/user_add_group.jsp</result>
+			<!-- 添加联系人分组成功 -->
+			<result name="addGroupSuccess" type="redirectAction">
+				<param name="actionName">linkman</param>
+				<param name="namespace">/user</param>
+				<param name="operationPath">user_add_group_success.jsp</param>
+			</result>
+			<!-- 删除联系人分组成功 -->
+			<result name="delGroupSuccess" type="redirectAction">
+				<param name="actionName">linkman</param>
+				<param name="namespace">/user</param>
+				<param name="operationPath">user_del_group_success.jsp</param>
+			</result>
+			<result name="addLinkmanSkip">/user/linkman/user_add_linkman.jsp</result>
+			<!-- 添加联系人成功 -->
+			<result name="addLinkmanSuccess" type="redirectAction">
+				<param name="actionName">linkman</param>
+				<param name="namespace">/user</param>
+				<param name="operationPath">user_add_linkman_success.jsp</param>
+			</result>
+			<result name="linkmanList">/user/linkman/user_list_linkman.jsp</result>
+			<!-- 删除联系人信息 -->
+			<result name="delLinkman" type="redirectAction">
+				<param name="actionName">linkman</param>
+				<param name="namespace">/user</param>
+				<param name="method">linkmanList</param>
+				<param name="group.id">${group.id}</param>
+			</result>
+			<result name="linkmanListByGroup">/user/linkman/user_list_linkman_byGroup.jsp</result>
+			<result name="updateLinkman">/user/linkman/user_update_linkman.jsp</result>
+			<!-- 更新联系人信息成功 -->
+			<result name="updateLinkmanSuccess" type="redirectAction">
+				<param name="actionName">linkman</param>
+				<param name="namespace">/user</param>
+				<param name="operationPath">user_update_linkman_success.jsp</param>
+			</result>
+			<result name="searchLinkman">/user/linkman/user_search_list.jsp</result>
+			<result name="welcome">/user/linkman/user_linkman_welcome.jsp</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 发送电子邮件 -->
+		<action name="sendMail" class="userSendMailAction">
+			<result name="success">/user/user_send_mail.jsp</result>
+			<result name="sendMailSuccess">/user/user_sendMail_success.jsp</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 上传附件 -->
+		<action name="fileUpload" class="fileUploadAction"></action>
+		
+		<!-- 下载文件 -->
+		<action name="fileDownLoad" class="fileDownLoadAction">
+			<result type="stream" name="success">
+				<param name="contentType">application/octet-stream</param>
+				<!-- 要有相对应的getDownloadFile()方法返回值是 InputStream -->
+				<param name="inputName">downloadFile</param>
+				<param name="contentDisposition">attachment;filename="${fileName}"</param>
+				<param name="bufferSize">4096</param>
+			</result>
+		</action>
+		
+		<!-- 搜索邮件 -->
+		<action name="search" class="userSearchMailAction">
+			<result name="success">/user/user_searchMail_list.jsp</result>
+			<result name="highSearchSuccess">/user/user_highSearchMail_list.jsp</result>
+			<result name="searchMail" type="redirectAction">
+				<param name="actionName">search</param>
+				<param name="namespace">/user</param>
+				<param name="page">${page}</param>
+				<param name="searchMailFB.content">${searchMailFB.content}</param>
+			</result>
+			<interceptor-ref name="loginInterceptor" />
+		</action>
+		
+		<!-- 默认action -->
+		<action name="*">
+			<result>/index.jsp</result>
+		</action>
+    </package>
+    
+    <!-- 默认包 -->
+    <package name="global"  extends="struts-default">
+   		 <!-- 默认action -->
+		<action name="*">
+			<result>/index.jsp</result>
+		</action>
+    </package>
+</struts>
